@@ -1,47 +1,47 @@
-Alkuperäinen löytyy täältä! http://homes.jamk.fi/~huojo/opetus/IIZP2010/
+The original link is here! http://homes.jamk.fi/~huojo/opetus/IIZP2010/
 
 
-Tämä on wiki muotoinen viestintäsuunnitelman esimerkki..
+This document is an example of a project's plan, in a wiki-like form.
 
 
-#	Johdanto
+#	Introduction
 
-Tämä viestintäsuunnitelman tarkoituksena on määritellä X projektin yhteydessä käytetyt viestintämenetelmät ja  kanavat. Selkeällä ja yhdenmukaisella viestinnällä varmistetaan informaation kulku ja vaikutetaan projektin laatutavoitteiden toteutumiseen.
-#	Projektin osapuolet
+The purpose of this plan is to define the programs, applications and channels used for communication while working on project X. Clear and efficient ways of communication ensure that the information moves smoothly from a person to another and that the project's quality is up to the pre-defined standards. .
+#	Project parties
 
-## Projektin osapuolet voidaan jakaa viestinnän näkökulmasta neljään eri ryhmään:
-  1.	Projektiryhmän jäsenet (nn, yy, zz, ym)
-  2.	Projektin ohjaajat ([hh], jj, kk)
-  3.	Toimeksiantajan edustajat (aa, bb, cc)
-  4.	Ulkopuoliset henkilöt (esim. laitoksen johtaja, asiantuntijat jne.)
-Tässä suunnitelmassa luodaan pohja projektiryhmän ja kolmen muun projektin sidosryhmän väliselle viestinnälle. 
+## The parties of a project can be divided in to four groups in terms of communication :
+  1.	Team members for the project (nn, yy, zz, ym)
+  2.	Project instructors([hh], jj, kk)
+  3.	The client's representatives (aa, bb, cc)
+  4.	Outsiders (ie. facility staff, professionals, etc.)
+In this document, we create the foundations for the communication between the project team and three other parties. 
 
-#	Yleiset viestintäkanavat
+#	General channels for communication
 
-X projektilla on käytettävissään viestintää varten: puhelin, telefax, sähköposti, LN tietokannat, posti, sisäinen posti, www, ilmoitustaulu sekä luonnollisesti erilaiset kirjallisen ja verbaalisen viestinnän muodot. 
-# Kirjallisessa viestinnässä käytettävät mallit
-Projektiin liittyvässä kirjallisessa viestinnässä käytetään Yrityksen viestintä –kirjassa (Kortetniemi, 1997) esitettyjä asiakirjamalleja / JAMKin raportointiohjetta / jotain muuta (mitä?). Dokumenttien elektroninen tallennusmuoto määritellään tarkemmin erityisessä dokumentointisuunnitelmassa. 
-#	Sisäinen viestintä
+The team's ways of communication consist of telepone, e-mail, mail, www and other literary / verbal ways of communication.
+# Literary communication
+The literary communication about / for the project consists mainly of JAMK's official reporting model.
+#	Inner communication
 
-Sisäisellä viestinnällä tarkoitetaan tässä viestintää projektiryhmän sisällä. Sen tavoitteena on välittää projektiin liittyvää informaatiota kaikille ryhmän jäsenille ja näin tukea ryhmän yhteistyötä ja edesauttaa ryhmän identiteetin muodostumista. Lisäksi sisäinen viestintä toimii kaiken ulkoisen viestinnän perustana.
-X projektin sisäisessä viestinnässä käytetään sekä formaaleja että epävirallisia kanavia. Projektiryhmä kokoontuu [maanantaiaamuisin] viikkopalaveriin, jossa suunnitellaan tulevan viikon tehtävät ja edellisen käydään läpi edellisen viikon tapahtumat. [Projektipäällikkö valmistelee viikkopalaverin esityslistan ja kirjoittaa palaverin pohjalta viikkosuunnitelman, joka asetetaan LN tietokantaan ja ilmoitustaululle.]  Muutoinkin kaikki projektiin liittyvä dokumentaatio säilytetään [dokumenttitietokannassa], jota ryhmäläisten tulee aktiivisesti seurata. Sihteeri tiedottaa kaikista merkittävistä tapahtumista ryhmän jäsenille sähköpostitse ja kirjoittaa niistä muistion. 
-Sekä sisäisen että ulkoisen viestinnän tukena käytetään lisäksi seuraavia apuvälineitä:
--	[LN sovellus], johon sisällytetään tiedot muun dokumentaation ulkopuolisista kontakteista eri sidosryhmien kanssa (esim. puhelu toimeksiantajalle).  
--	[A sovellus, jonka avulla ryhmän LN sähköpostiosoitteeseen tullut posti jaetaan edelleen projektiryhmäläisten henkilökohtaisiin sähköpostiosoitteisiin.]
+Inner communication is the communication between the members of the group. It's main goal is to relay information about the project from one person to the others in the group, therefore improving the group's co-operation and helping in forming the identity of the group. The inner communication is also the base of all outgoing communication.
+The group gathers on [monday mornings <INSERT WEEKDAY HERE>] for a meeting in which they go through the plans for the week, and review the earlier week's works. [The project manager readies the meeting's list of contents, and writes a schedule for the week. The schedule will be posted in the LN-database and for the members of the group.]  All documentation for the project will be stored in the [Document database], which the members should actively keep up with and follow. The assigned secretary informs the group members of all noteworthy events via email or messages, and writes the events down. 
+Both the inner and general communication will be supported by the use of :
+-	[LN-application], in which all information with contacts will be stored in. (ie. a phone conversation with the client).  
+-	[Application A, with which the emails coming in to the groups LN-email will be relayed forward to the group's members' personal e-mails.]
 
-#	Viestintä ohjaajien kanssa
+#	Communication with the instructors.
 
-Projektiryhmän ja ohjaajien välisen viestinnän tehtävä on mahdollistaa ohjaajille esteetön ja täydellinen projektin seuranta ja sitä kautta antaa heille riittävät resurssit tukea projektin etenemistä. Keskeisin viestintäkanava tulee olemaan [LN dokumenttitietokanta] sekä [keskiviikkoiset] ohjaajapalaverit [hh]:n kanssa. Projektisihteeri valmistelee ohjaajapalaverien esityslistat ja kirjoittaa niistä muistiot. Edellä mainittujen viestintäkanavien lisäksi tärkein viestintätapa on [sähköposti], muita tapoja käytetään mahdollisuuksien mukaan ja tarvittaessa. Kaikista keskeisistä projektiin liittyvistä tapahtumista tiedotetaan ohjaajille ainakin yhdellä edellä mainituista kanavista.
+The goal in the communication between the group and the instructors is to grant the instructors a clear and smooth way to supervise the project, and to give them the resources to help the project to advance. The main channel of communication will be the [LN document database] and [<weekday>] meetings with the director [hh]:n kanssa. The secretary readies the notes for the meeting and writes them down. In addition to the above mentioned ones, the most important channel of communication is [email], even though other ways will and can be used if necessary. The instructors will be notified of all notable events via one of the mentioned ways of communication.
 
-#	Viestintä toimeksiantajan edustajien kanssa
+#	Communication with the client's represetantives
 
-Projektiryhmän ja toimeksiantajan edustajien välisessä viestinnässä ovat keskeisessä asemassa [erilaiset kokoukset ja tapaamiset]. Näistä säännöllisiä ovat johtoryhmän kokoukset, joihin esityslistan valmistelee projektipäällikkö. Edellisten lisäksi käytetään ensisijaisena viestintäkanavana [sähköpostia] ja toissijaisena [puhelinta]. Kaikista projektia koskevista dokumenteistä lähettää projektisihteeri sähköpostitse kopiot toimeksiantajan edustajille. Juoksevissa asioissa toimeksiantajan puolesta vastaa [nn] ja projektin hallinnosta [yy].
+The main way of communication between the group and the client's representatives are [meetings]. In addition to the previously mentioned, the primary way of communication will be  [email] and the secondary will be [phone]. The secretary provides the client's representatives with copies of all documents about the project via email.
 
-#Viestintä ulkopuolisten kanssa
+#Communication with outsiders
 
-Viestinnässä ulkopuolisten kanssa käytetään projektiryhmäläisten omaa harkintaa.  Osalle ulkopuolisista sidosryhmistä (muut projektit, osa laitoksen henkilökunnasta) on mahdollisuus viestiä [LN keskustelutietokannan] avulla. Lisäksi ulkopuolisille sidosryhmille on tarjolla informaatiota X projektin www sivustossa.
+Communication with people outside of the project depends on the consideration of the group members.  Some outsiders  (other projects, faculty staff) can be reached via [LN DATABASE]. Groups outside the project can follow the project via the project's www-page.
 
 
-#	Viestinnän seuranta ja arviointi
+#	Supervising and reviewing the communication.
 
-Viestinnän onnistumista arvioidaan projektin aikana jatkuvasti ja erityisesti viikko- ja ohjaajapalavereissä sekä viestintäopintojen yhteydessä.  Mahdollisiin epäkohtiin puututaan välittömästi ja viestintäsuunnitelmaa muutetaan tarpeen niin vaatiessa.
+The project's communication will be supervised and reviewed continuously during the projects, for example in the meetings.  Possible shortcomings will be reviewed instantly and dealt with accordingly.

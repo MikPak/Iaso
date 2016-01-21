@@ -10,49 +10,49 @@ tv:NarsuMan
 
 Dokumentin versionumero X.Y
 
-### Materiaalin luokittelu
+### Material classification
 
 Salattu/Julkinen
 
-### Oikeudet
+### Permission
 
 Kuka omistaa dokumentin?
 
 
 
-## Sisältö
+## Contents
 
 Sisällysluettelo ?
 
 
-## Johdatus
+## Introduction
 
   * Mikä on tämän dokumentin tehtävä? 
   * Mihin se liittyy ? 
   * Tärkeätä tietää
   * Oleellista lukijalle ?
 
-### Lyhyt tuote/palvelukuvaus/asiakastarina
+### Short product/service description/customer profile
 
   * Mitä määritetyltä palvelulta odotetaan? lyhyesti
   * Asiakastarina
 
-### Tilaaja
+### Client
 
   * Kuka on tilaaja, yhteistiedot ?
   * Jos tiedot on projektisuunnitelmassa, niin linkit tänne!
 
-### Toimittaja
+### Supplier
 
   * Kuka on toimittaja, yhteistiedot ?
   * Jos tiedot on projektisuunnitelmassa, niin linkit tänne!
 
-### Aikataulu
+### Schedule
 
   * Mitä alustavasti tullaan tekemään ja milloin ?
   * Kannattaa viedä osaksi projektisuunnitelmaa ?
 
-| Etappi | Alkaa | Loppuu | | | 
+| Waypoint | Begins | Ends | | | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | Profiiliasiakastapaamiset | 1.2.2017 | 12.2.2017 |  | P3 |
 | Sidosryhmä tapaaminen | 13.2.2017 | |  | P4 |

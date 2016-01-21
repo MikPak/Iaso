@@ -37,51 +37,51 @@ Link to document layout: https://github.com/JAMK-IT/TT0S0100-software-desing-and
 | Resources / Assignments  ? | :-1: | - | - |
 | Workload estimations ? | :-1: | - | - |
 | Links to other documents/material ? | :-1: | - | - |
-| Karkea toimitusaikataulu "roadmap" ? Linkitä vaatimusmäärittelyyn ? | :-1: | - | - |
-| Projektisuunnitelma löytyy ? | :-1: | - | - |
-| Alkuvaiheen priorisointi  ?| :-1: | - | - |
-| Yhteistiedot asiakkaasta ? | :-1: | - | - |
-| Tilaajan tarkka kuvaus ? | :-1: | - | - |
-| Onko ryhmällä esittää karkea kustannusarvio? | :-1: | - | - |
-| Riskienhallintasuunnitelma osio löytyy osana projektisuunnitelmaa | :-1: | - | - |
-| Viestintäsuunnitelma osio löytyy projektisuunnitelmasta | :-1: | - | - |
+| Rough schedule for delivery "roadmap" ? Link to requirement definition ? | :-1: | - | - |
+| Project plan ? | :-1: | - | - |
+| Early stage priorisation  ?| :-1: | - | - |
+| Contacts to customer ? | :-1: | - | - |
+| Exact description for the customer ? | :-1: | - | - |
+| Rough estimate of the costs ? | :-1: | - | - |
+| Project risk planning as part of the project plan | :-1: | - | - |
+| Communication plan as part of the project plan | :-1: | - | - |
 
-## Vaatimusmäärittely
-
-Dokumenttipohja löytyy täältä: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
-
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
-|:----:|:----:|:----:|:----:| 
-| Vaatimusmäärittely löytyy ? | :-1: | - | - |
-| Roolitukset , toimijat sidosryhmät kuvattuna |  :-1: | - | - | 
-| Tärkeimmät toiminnot/ominaisuudet ? | :-1: | - | - |
-| Toimitusjärjestys / "Roadmap" ks. projektisuunnitelma | :-1: | - | - |
-| Käyttöliittymän esimerkit / demo ympäristö | :-1: | - | - |
-
-## Projektisopimus 
+## Requirement definition
 
 Dokumenttipohja löytyy täältä: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
 
-
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Projektisopimus löytyy ? | :-1: | - | - |
-| Sopimusmuutoksia ehdotettu ? | :-1: | - | - |
-| Muutokset kirjattu ? | :-1: | - | - |
-| Tulostettava versio olemassa ? | :-1: | - | - |
+| Requirement definition plan available ? | :-1: | - | - |
+| Roles, operatives and stakeholders described |  :-1: | - | - | 
+| Most important functions/features ? | :-1: | - | - |
+| Delivery priorisation / "Roadmap" see project plan | :-1: | - | - |
+| GUI examples / demo enviroment | :-1: | - | - |
 
-## Viestintäsuunnitelma
+## Project contract
 
-Dokumenttipohja löytyy täältä: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
+Link to document layout: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
 
-Voidaan sisällyttää projektisuunnitelmaan...
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Kommunikaatiosuunnitelma löytyy ? | :-1: | - | - |
-| Tärkeimpien Viestintätilanteiden esimäärittely ? ks. riskienhallinta| :-1: | - | - |
-| Yhteystiedot asiakkaaseen ? | :-1: | - | - |
-| Roolien kuvaus, Kuka tekee ja mitä milloin ? | :-1: | - | - |
+| Project contract available ? | :-1: | - | - |
+| Changes to project contract ? | :-1: | - | - |
+| Changes noted ? | :-1: | - | - |
+| Printable version available ? | :-1: | - | - |
+
+## Communication plan
+
+Link to document layout: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
+
+Can be included to project plan...
+
+| Item | OK/NOK | Needs fixing | In charge ? |
+|:----:|:----:|:----:|:----:| 
+| Communication plan available ? | :-1: | - | - |
+| Predefinition of most important communications ? see Risks of the project| :-1: | - | - |
+| Contacts to customer ? | :-1: | - | - |
+| Role descriptions, who will do what and when? ? | :-1: | - | - |
 
 
 

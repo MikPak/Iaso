@@ -20,10 +20,10 @@ Project group will produce documents mentioned in the above picture. Every docum
 
 # Required documents and things related to them
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge |
 |:----:|:----:|:----:|:----:| 
-| Projektin wiki etusivu [Focus-esimerkin](https://github.com/JAMK-IT/reference-product-line/wiki) mukainen | :-1: | - | - |
-| Ryhmä esittely | :-1: | - | - |
+| Project wiki-page follows [Focus-example](https://github.com/JAMK-IT/reference-product-line/wiki) mukainen | :1: | - | - |
+| Group member introduction | :-1: | - | - |
 | Tuntikirjaukset käytössä | :-1: | - | - |
 
 ## Projektisuunnitelma

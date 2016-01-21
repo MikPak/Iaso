@@ -4,7 +4,6 @@
 
 ## General
 
-Kaikkien projektien on noudatettava seuraavaa [wiki-sivurunkoa](https://github.com/JAMK-IT/reference-product-line/wiki)
 Every project must comply this [wiki-page model](https://github.com/JAMK-IT/reference-product-line/wiki)
 
 
@@ -15,14 +14,14 @@ Every project must comply this [wiki-page model](https://github.com/JAMK-IT/refe
 
 Projektiryhmä tuottaa projektin aikana ylläolevan kuvan mukaiset dokumentit. Jokaiseen dokumenttiin pitää löytyä linkki projektiryhmän omalta wiki-sivulta. Ks. [wiki-sivurunko](https://github.com/JAMK-IT/reference-product-line/wiki)
 
-Project group will produce documents mentioned in the above picture. Every document must be linked from wiki mainpage. See [Wiki-
+Project group will produce documents mentioned in the above picture. Every document must be linked from wiki mainpage. See [Wiki-page model](https://github.com/MikPak/Iaso/wiki)
 
-## Milloin dokumenttien on oltava valmiina ?
+## When documents must be ready?
 
 ![](https://github.com/JAMK-IT/IIZP2010-system-project/blob/master/images/project-milestones/Slide4.PNG)
 
 
-# Tarvittavat dokumentit ja niihin liittyvät oleelliset asiat
+# Required documents and things related to them
 
 | Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
 |:----:|:----:|:----:|:----:| 

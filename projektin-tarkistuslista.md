@@ -4,15 +4,12 @@
 
 ## General
 
-Every project must comply this [wiki-page model](https://github.com/JAMK-IT/reference-product-line/wiki)
+Every project must comply with this [wiki-page model](https://github.com/JAMK-IT/reference-product-line/wiki)
 
 
 ## Required documents ?
 
 ![](https://github.com/JAMK-IT/IIZP2010-system-project/blob/master/images/project-milestones/Slide3.PNG)
-
-
-Projektiryhmä tuottaa projektin aikana ylläolevan kuvan mukaiset dokumentit. Jokaiseen dokumenttiin pitää löytyä linkki projektiryhmän omalta wiki-sivulta. Ks. [wiki-sivurunko](https://github.com/JAMK-IT/reference-product-line/wiki)
 
 Project group will produce documents mentioned in the above picture. Every document must be linked from wiki mainpage. See [Wiki-page model](https://github.com/MikPak/Iaso/wiki)
 

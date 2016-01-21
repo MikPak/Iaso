@@ -22,7 +22,7 @@ Project group will produce documents mentioned in the above picture. Every docum
 
 | Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Project wiki-page follows [Focus-example](https://github.com/JAMK-IT/reference-product-line/wiki) mukainen | :thumbsup: | - | - |
+| Project wiki-page follows [Focus-example](https://github.com/JAMK-IT/reference-product-line/wiki) | :thumbsup: | - | - |
 | Group member introduction | :-1: | - | - |
 | Worktime management | :thumbsup: | - | - |
 

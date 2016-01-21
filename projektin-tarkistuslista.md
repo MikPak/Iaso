@@ -85,49 +85,50 @@ Can be included to project plan...
 
 
 
-## Risks of the project
+## Risk management plan
 
-Dokumenttipohja löytyy täältä: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
+Link to document layout: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
 
-Voidaan sisällyttää projektisuunnitelmaan..
+Can be included to project plan...
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Riskienhallinta löytyy ? | :-1: | - | - |
-| Tunnistettuja riskejä | :-1: | - | - |
-| Yhteystiedot asiakkaaseen ? | :-1: | - | - |
-| Prioirisoini ? | :-1: | - | - |
-| Jos riski ilmenee selviääkö kuka/mikä tekee, mitä ja milloin ? | :-1: | - | - |
+| Risk management plan available ? | :-1: | - | - |
+| Identified risks | :-1: | - | - |
+| Contacts to customer ? | :-1: | - | - |
+| Priorisation ? | :-1: | - | - |
+| If risk occurs, who will be in charge; who does what and when ? | :-1: | - | - |
 
 
-## Tekninen suunnitteludokumentaatio
+## Technical planning documentation
 
 
-ks. esimerkki https://github.com/Opetushallitus/tor
+see example: https://github.com/Opetushallitus/tor
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Teknlogia kuvaukset? | :-1: | - | - |
-| UML kaaviot? | :-1: | - | - |
-| ER-kaaviot tietokannoista? | :-1: | - | - |
-| Integraatiot muihin järjestelmiin? | :-1: | - | - |
-| Linkit tuotettuun lähdekoodiin ja sen tärkeimpiin komponentteihin? | :-1: | - | - |
+| Technology descriptions? | :-1: | - | - |
+| UML charts? | :-1: | - | - |
+| ER-charts of databases? | :-1: | - | - |
+| Integrations to other systems? | :-1: | - | - |
+| Links to source code and most important components? | :-1: | - | - |
 
-## Testaussuunnitelma
+## Testing plan
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Asiakkaan koekäyttö valmisteltu? ks. etapit | :-1: | - | - |
-| Tärkeimmät Käyttötapaukset tunnistettu ja ne voidaan suorittaa testeinä? | :-1: | - | - |
-| Testaus vastuutettu? Kuka tekee, mitä ja milloin ? | :-1: | - | - |
-| Olemassa olevia testitapauksia ?  | :-1: | - | - |
+| Demo prepared for the customer? see sprints | :-1: | - | - |
+| Most important use cases identified and possibility to run them as tests? | :-1: | - | - |
+| Test responsibilities? Who makes what and when? | :-1: | - | - |
+| Existing testcases?  | :-1: | - | - |
 
-## Muuta tarkistettavaa
+## Other things to check
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Projektisuunnitelmasta löytyy linkit kaikkiin mahdollisiin dokumentteihin? | :-1: | - | - |
-| Käyttöohjeet löytyy? | :-1: | - | - |
+| Project plan has links to every possible documents? | :-1: | - | - |
+| User manual available? | :-1: | - | - |
+
 
 
 

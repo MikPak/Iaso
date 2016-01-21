@@ -20,23 +20,23 @@ Project group will produce documents mentioned in the above picture. Every docum
 
 # Required documents and things related to them
 
-| Item | OK/NOK | Needs fixing | In charge |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Project wiki-page follows [Focus-example](https://github.com/JAMK-IT/reference-product-line/wiki) mukainen | :1: | - | - |
+| Project wiki-page follows [Focus-example](https://github.com/JAMK-IT/reference-product-line/wiki) mukainen | :thumbsup: | - | - |
 | Group member introduction | :-1: | - | - |
-| Tuntikirjaukset käytössä | :-1: | - | - |
+| Worktime management | :thumbsup: | - | - |
 
-## Projektisuunnitelma
+## Project plan
 
-Dokumenttipohja löytyy täältä: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
+Link to document layout: https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing
 
-| Tarkistus kohde | OK/NOK | Mitkä korjataan | Kuka korjaa ? |
+| Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Aikataulu ? | :-1: | - | - |
-| Etapit kirjattuna + GANTT ? | :-1: | - | - |
-| Resurssointi / tehtävien jako  ? | :-1: | - | - |
-| Työmääräarvio ? | :-1: | - | - |
-| Linkit muuhun dokumentaation/materiaaliin ? | :-1: | - | - |
+| Timetable ? | :-1: | - | - |
+| Sprints recorded + GANTT ? | :-1: | - | - |
+| Resources / Assignments  ? | :-1: | - | - |
+| Workload estimations ? | :-1: | - | - |
+| Links to other documents/material ? | :-1: | - | - |
 | Karkea toimitusaikataulu "roadmap" ? Linkitä vaatimusmäärittelyyn ? | :-1: | - | - |
 | Projektisuunnitelma löytyy ? | :-1: | - | - |
 | Alkuvaiheen priorisointi  ?| :-1: | - | - |

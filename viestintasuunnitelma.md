@@ -18,7 +18,7 @@ In this document, we create the foundations for the communication between the pr
 
 #	General channels for communication
 
-The team's ways of communication consist of telepone, e-mail, mail, www and other literary / verbal ways of communication.
+The team's ways of communication consist of telephone, e-mail, mail, www, slack and other literary / verbal ways of communication.
 # Literary communication
 The literary communication about / for the project consists mainly of JAMK's official reporting model.
 #	Inner communication

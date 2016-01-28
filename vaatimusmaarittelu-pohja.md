@@ -1,239 +1,242 @@
-# Dokumentista
+# About the document
 
-Tämä dokumentti on "elävä"-dokumentti, joka päivittyy jatkuvasti. Se on karkea vaatimusmäärittelydokumentin runko, jota voi käyttää projektien vaatimusmäärittelyn pohjana. Rakennetta saa ja pitää muokata! Tavoitteena on luoda dokumentti, joka yhdistää palvelumuotoilun ja ohjelmistosuunnittelun saumattomasti yhteen. Tekijä ei ota mitään vastuuta dokumentin sisällöstä.
+This document is a "living"-document, which is updates regularly. It is a rough requirement definition document's structure that can be used as a layout for requirement defining for various projects. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly. The creator doesn't that any credit of the document's content.
 
-tv:NarsuMan
+Regards: NarsuMan
 
 
 
-## XXXXXX-palvelun/ohjelmiston vaatimusmäärittely
 
-Dokumentin versionumero X.Y
+## XXXXXX-service/software requirement definition
+
+Document's version number X.Y
 
 ### Material classification
 
-Salattu/Julkinen
+Protected/public
 
 ### Permission
 
-Kuka omistaa dokumentin?
+Who owns the document?
 
 
 
 ## Contents
 
-Sisällysluettelo ?
+Table of contents?
 
 
 ## Introduction
 
-  * Mikä on tämän dokumentin tehtävä? 
-  * Mihin se liittyy ? 
-  * Tärkeätä tietää
-  * Oleellista lukijalle ?
+  * What is the purpose of this document
+  * What is it associated with?
+  * Important thing to know
+  * Relevant information to the reader?
 
 ### Short product/service description/customer profile
 
-  * Mitä määritetyltä palvelulta odotetaan? lyhyesti
-  * Asiakastarina
+  * What is expected of the defined service? Briefly
+  * Client story
 
 ### Client
 
-  * Kuka on tilaaja, yhteistiedot ?
-  * Jos tiedot on projektisuunnitelmassa, niin linkit tänne!
+  * Who is the client, contact information ?
+  * If the information is on the project plan, put the links here!
 
 ### Supplier
 
-  * Kuka on toimittaja, yhteistiedot ?
-  * Jos tiedot on projektisuunnitelmassa, niin linkit tänne!
+  * Who is the supplier, contact information?
+  * If the information is on the project plan, put the links here!
 
 ### Schedule
 
-  * Mitä alustavasti tullaan tekemään ja milloin ?
-  * Kannattaa viedä osaksi projektisuunnitelmaa ?
+  * What is initially going to be made and when?
+  * Recommended to be a part of the project plan?
 
 | Waypoint | Begins | Ends | | | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-| Profiiliasiakastapaamiset | 1.2.2017 | 12.2.2017 |  | P3 |
-| Sidosryhmä tapaaminen | 13.2.2017 | |  | P4 |
-| Esi-katselmointi | 25.2.2017 | |  | P1 |
-| Vaatimusmäärittely luovutetaan | 28.2.2017 | 12.2.2017 |  | P1 |
+| Profile client meetings | 1.2.2017 | 12.2.2017 |  | P3 |
+| Meeting of the stakeholders | 13.2.2017 | |  | P4 |
+| Preview | 25.2.2017 | |  | P1 |
+| Requirement defining is over | 28.2.2017 | 12.2.2017 |  | P1 |
 
-## Palvelun/ohjelmiston tunnistetut sidosryhmät ja asiakkaat (Stakeholders and customers) 
+## Service's/Software's known stakeholders and customers
 
 
-### Sidosryhmät (Stakeholders)
+### Stakeholders
 
 * https://en.wikipedia.org/wiki/Stakeholder_analysis
-* [Mikä ihmeen sidosryhmä?](https://fi.wikipedia.org/wiki/Sidosryhm%C3%A4)
-* Kuka on kiinnostunut tuotteesta tai kenellä on sanansa sanottavana liittyen tuotteen kehittämiseen ?
+* [What is a stakeholder?](https://fi.wikipedia.org/wiki/Sidosryhm%C3%A4)
+* Who is interested about the product or who has the "say" in regards of the product development?
 
-Sidosryhmät (esimerkkejä)
+Stakeholders (examples)
 
-* [Linkki sidosryhmän omaan sivuun]()
-* Mungo consulting Oy, Palvelun tarjoaja
-* RahoittajaA, yrityksen osakas, Bankoman Oy, osakkeen omistaja 55 %
-* RahoittajaB, Yrityksen osakas, Mauri Bosse, omistaa 5 %
-* TuotantotiimiA, em. yrityksen työntekijät, Kalle, Kille, Pelle ja Pöppö
-* SuurAsiakasA, NordMan Oy, yritysasiakas
-* SuurAsiakasB, Bill Cates Ikkunatehdas, yritysasiakas
-* Bad Man, kiusantekijä
-* Snake Consulting Oy, kilpailija
+* [Link to the stakeholder's web page]()
+* Mungo consulting Oy, Service Provider
+* InvestorA, company stakeholder, Bankoman Oy, stakeholder 55 %
+* InvestorB, company stakeholder, Mauri Bosse, owns 5 %
+* Production team A, e.g company employees, Kalle, Kille, Pelle ja Pöppö
+* Grand investor A, NordMan Oy, company client
+* Grand investor B, Bill Cates Window factory, company client
+* Bad Man, troublemaker
+* Snake Consulting Oy, competitor
 
-Tunnistetut asiakasprofiilit 
+Identified customer profiles
 
-## Asiakasprofiilit (Customer Profiles)
+## Customer Profiles
 
-Esimerkkejä! korvatkaa
+Examples! Replace
 
-  * Asiakas 1, Mauno Mainio, 67, eläkeläinen, Vierumäki, kotosin Pohjois-Savosta (Matematiikan opettaja)
-  * Asiakas 2, Riku Rikas, 30, IT Yrittäjä, asuinpaikka tuntematon, kotoisin nomands land 
-  * Asiakas 3, Siiri Koikkalainen 99, suurmummo, Hankasalmi, (Sokea)
-  * Asiakas 4, John Rambu, 55, tuntematon, Helsinki, (Bad Man)
+  * Client 1, Mauno Mainio, 67, retired, Vierumäki, from Northern-Savosta (Math teacher)
+  * Client 2, Riku Rikas, 30, IT-entrepreneur, unknown, from no-mans land
+  * Client 3, Siiri Koikkalainen 99, grandmother, Hankasalmi, (Blind)
+  * Client4, John Rambu, 55, unknown, Helsinki, (Bad Man)
 
-Voi olla toisaalta järkevää luoda oma sivu jokaiselle asiakasprofiileille..
+On the other hand it might be rational to create a new page for each customer profile
 
-  * [Linkki asiakasprofiiliin 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-  * [Linkki asiakasprofiiliin 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-  * [Linkki asiakasprofiiliin 3](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
+  * [Link to customer profile 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
+  * [Link to customer profile 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
+  * [Link to customer profile 3](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
 
 
-## Sidosryhmäkartta (Stakeholder map)
+## Stakeholder map
 
 ![](https://www.lucidchart.com/publicSegments/view/afbaa205-0924-40f8-a0a1-96e281aafcf5/image.png)
 
-## Yleinen palvelun asiakaspolku (General Customer Journey)
+## General Customer Journey
 
 ![](https://camo.githubusercontent.com/1429ec848bc406a1bc7f38874188e4af03d3ee46/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6c6f7076357a6a6a337076676261392f757365725f6a6f75726e6579732d30322e706e673f646c3d31)
 
-Käydään läpi asiakaspolku, jossa käytetään nimettyjä sidosryhmien edustajia
+Covering the customer path, in which named stakeholder representatives are used
 
-  *  [Mikä ihmeen palvelupolku](https://www.google.fi/search?q=palvelupolku&espv=2&biw=1626&bih=843&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjU3Kn22pnKAhWDWywKHWrDB-wQsAQIHA)
-
-
-## Palvelun osa-aluejako (Service Domain areas)
-
-Millaisiin osa-alueiseiin voidaan ohjelmisto/palvelu voidaan jakaa.
-
-Onko olemassa erilaisia tuoteversioita eri ympäristöihin, mitä?
-
-  * Työpöytäversio ?
-  * Mobiiliversio ?
-  * Kenttäversio  
-
-ohjelmiston osa-alueita/lohkoja?
-
-  * Hallintapaneeli ?
-  * Tietokanta-palvelut ?
-  * Käyttöliittymät ?
-  * Autentikointi ?
-  * Laskutus ?
-
-## Tärkeimmät asiakaspolut (Customer Journey Maps) valituiden asiakasprofiilien näkökulmasta
-
-  * Tarkennetaan kuvausta tehtävän mukaisesti ?
-
-### Asiakaspolku käytöönotto [asiakasprofiili_1] näkökulmasta
-
-* lorem ipsum
-* Blue Print-kuva ?
+  *  [What is a customer path?](https://www.google.fi/search?q=palvelupolku&espv=2&biw=1626&bih=843&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjU3Kn22pnKAhWDWywKHWrDB-wQsAQIHA)
 
 
-### Asiakaspolku tuotteen takuukorjaus [asiakasprofiili_2] näkökulmasta
+## Service Domain areas
+
+In which sub-section can you divide the software/service?
+
+Is there any different product versions to different environments, what?
+
+  * Desktop version?
+  * Mobile version?
+  * Field version 
+
+Software sub-sections/blocks?
+
+  * Control panel?
+  * Database services?
+  * User interfaces?
+  * Authentication?
+  * Billing?
+
+## The most vital Customer Journey Maps (Asiakaspolku) regarding the chosen client profiles
+
+  * Specifying the description to fit the project?
+
+### Customer Journey Map usage [clientprofile_1] point of view
 
 * lorem ipsum
-* Blue Print-kuva ?
+* Blue Print-picture ?
 
-### Asiakaspolku tuotten uudelleenasennus [asiakasprofiili_3] näkökulmasta
+
+### Customer Journey Map usage [clientprofile_2] point of view
 
 * lorem ipsum
-* Blue Print-kuva ?
+* Blue Print-picture ?
+
+### Customer Journey Map usage [clientprofile_3] point of view
+
+* lorem ipsum
+* Blue Print-picture ?
 
 
-## Tärkeimmät piirteet/ominaisuudet (Features)
+## The most important features
 
-  * Kirjataan tärkeimmät ominaisuudet
-  * Mitä ovat oleelliset ominaiduudet ?
-  * [Tsekkaa MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
+  * Marking the most important features
+  * What are the essential features?
+  * [Check MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
-### Ominaisuus 1
+### Feature 1
 
-  * Kuvaus
-  * Ominaisuuteen liittyvät vaatimukset ?
-  * UI-Näkymä ?
-  * Testauksessa huomioitavaa
+  * Description Kuvaus
+  * Requirements of the feature?
+  * UI-View ?
+  * To be noted during testing
 
-### Ominaisuus 2
+### Feature 2
 
-  * Kuvaus
-  * Ominaisuuteen liittyvät vaatimukset ?
-  * UI-Näkymä ?
-  * Testauksessa huomioitavaa
+  * Description Kuvaus
+  * Requirements of the feature?
+  * UI-View ?
+  * To be noted during testing
 
-### Ominaisuus 3
+### Feature 3
 
-  * Kuvaus
-  * Ominaisuuteen liittyvät vaatimukset ?
-  * UI-Näkymä ?
-  * Prototyyppi näkymä?
-  * Testauksessa huomioitavaa
+  * Description Kuvaus
+  * Requirements of the feature?
+  * UI-View ?
+  * To be noted during testing
 
-### Ominaisuus 4
+### Feature 4
 
-  * Kuvaus
-  * Ominaisuuteen liittyvät vaatimukset ?
-  * UI-Näkymä ?
-  * Prototyyppi näkymä?
-  * Testauksessa huomioitavaa
+  * Description Kuvaus
+  * Requirements of the feature?
+  * UI-View ?
+  * To be noted during testing
 
-## Käyttötapaukset
+## Use-Cases
 
-### Tärkeimmät käyttötapaukset kuvana
+### The most important use-cases as picture
 
 ![](https://www.lucidchart.com/publicSegments/view/6994e113-aa9d-4eeb-ab5d-edc605b604ef/image.png)
 
-### Käyttötapaus 1
+### Use-case 1
 
-   * [Rekisteröityminen](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Registering](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
-### Käyttötapaus 2
+### Use-case 2
 
-   * [Salasanan vaihto](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Password change](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
-### Käyttötapaus 3
+### Use-case 3
 
-   * [Esimerkki4](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Example 3](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
-### Käyttötapaus 4
+### Use-case 4
 
-   * [Esimerkki4](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
+   * [Example 4](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
-## Riskit  (Risks)
+## Risks
 
-   * Tunnistetaan ohjelmistoon/palveluun liittyviä riskejä..
-   * [Riskienhallinta](https://fi.wikipedia.org/wiki/Riskienhallinta)
+   * Identifying the risks of the software/service..
+   * [Risk control](https://fi.wikipedia.org/wiki/Riskienhallinta)
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+| Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|RISK001| Käyttäjämäärän äkillinen lisääntyminen, esim poikkeustilanteen aikana | - | P1 |
-|RISK002| Palvelun käytettävyys heikkenee kovan kuormituksen aikana | Toiminnnallinen |  | P5 |
-|RISK003| Heikon verkkoyhteyden vaikutus palvelun käyttöön | Toiminnnallinen | - | P3 |
+|RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | P1 |
+|RISK002| The usability of the service getting weaker during heavy load | Practical |  | P5 |
 
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
 
-## Yleiset vaatimukset (Functional Requirements)
+|RISK003| The effect of a weak internet connection to the service | Practical | - | P3 |
 
-  * Tässä osiossa voidaan nostaa esiin huomioitavia tärkeitä vaatimuksia, jotka on hyvä pitää mielessä!
+  * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+## Functional Requirements
+
+  * In this section you can raise notable requirements that are good to keep in mind!
+
+| Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| Palvelun täytyy toimia Android versiosssa 4.x alkaen | Tekninen | "ASAP"-tuotantotiimi | P1 |
+|YVA0001| Service has to work with Android version 4.x and later | Tekninen | "ASAP"- | P1 |
 |YVA0002| Palvelun täytyy toimia Windows Phonessa | totetutus |  "ASAP"-tuotantotiimi | P2 |
 |YVA0003| Palvelun täytyy toimia Windows 95:ssa, koska johtajalla on moinen koneessaan! | totetuts |  "ASAP"-tuotantotiimi | P5 |
 
-## Tunnistetut toiminnnalliset vaatimukset (Functional Requirements)
+////////////////////////////////////////////////////////TO BE CONTINUED///////////////////////////////////////////////////////
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+## Identified Functional Requirements
+
+| Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |VAT0001|  | Toiminnnallinen | "ASAP"-tuotantotiimi | P1 |
 |VAT0002| Käyttäjä voi tarvittaessa vaihtaa salasanansa | Toiminnnallinen |  "ASAP"-tuotantotiimi | P5 |

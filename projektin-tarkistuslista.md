@@ -23,7 +23,7 @@ Project group will produce documents mentioned in the above picture. Every docum
 | Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
 | Project wiki-page follows [Focus-example](https://github.com/JAMK-IT/reference-product-line/wiki) | :thumbsup: | - | - |
-| Group member introduction | :-1: | - | - |
+| Group member introduction | :thumbsup: | - | - |
 | Worktime management | :thumbsup: | - | - |
 
 ## Project plan
@@ -32,17 +32,17 @@ Link to document layout: https://github.com/JAMK-IT/TT0S0100-software-desing-and
 
 | Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Timetable ? | :-1: | - | - |
-| Sprints recorded + GANTT ? | :-1: | - | - |
-| Resources / Assignments  ? | :-1: | - | - |
-| Workload estimations ? | :-1: | - | - |
-| Links to other documents/material ? | :-1: | - | - |
+| Timetable ? | :thumbsup: | - | - |
+| Sprints recorded + GANTT ? | :thumbsup: | - | - |
+| Resources / Assignments  ? | :thumbsup: | - | - |
+| Workload estimations ? | :thumbsup: | - | - |
+| Links to other documents/material ? | :thumbsup: | - | - |
 | Rough schedule for delivery "roadmap" ? Link to requirement definition ? | :-1: | - | - |
 | Project plan ? | :-1: | - | - |
-| Early stage priorisation  ?| :-1: | - | - |
-| Contacts to customer ? | :-1: | - | - |
-| Exact description for the customer ? | :-1: | - | - |
-| Rough estimate of the costs ? | :-1: | - | - |
+| Early stage priorisation  ?| :thumbsup: | - | - |
+| Contacts to customer ? | :thumbsup: | - | - |
+| Exact description for the customer ? | :thumbsup: | - | - |
+| Rough estimate of the costs ? | :thumbsup: | - | - |
 | Project risk planning as part of the project plan | :-1: | - | - |
 | Communication plan as part of the project plan | :-1: | - | - |
 

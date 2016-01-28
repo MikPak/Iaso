@@ -228,9 +228,9 @@ Software sub-sections/blocks?
 
 | Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| Service has to work with Android version 4.x and later | Tekninen | "ASAP"- | P1 |
-|YVA0002| Palvelun täytyy toimia Windows Phonessa | totetutus |  "ASAP"-tuotantotiimi | P2 |
-|YVA0003| Palvelun täytyy toimia Windows 95:ssa, koska johtajalla on moinen koneessaan! | totetuts |  "ASAP"-tuotantotiimi | P5 |
+|YVA0001| Service has to compatible with Android version 4.x and later | Technical | "ASAP"- | P1 |
+|YVA0002| Service has to compatible with Windows Phone | Implementation |  "ASAP"-tuotantotiimi | P2 |
+|YVA0003| Service has to compatible with Windows 95!!!! | Implementation|  "ASAP"-tuotantotiimi | P5 |
 
 ////////////////////////////////////////////////////////TO BE CONTINUED///////////////////////////////////////////////////////
 
@@ -238,113 +238,111 @@ Software sub-sections/blocks?
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAT0001|  | Toiminnnallinen | "ASAP"-tuotantotiimi | P1 |
-|VAT0002| Käyttäjä voi tarvittaessa vaihtaa salasanansa | Toiminnnallinen |  "ASAP"-tuotantotiimi | P5 |
-|VAT0003| Salasanan vaihdon jälkeen ei käyttäjän tarvitse kirjautua uudestaan | Toiminnnallinen |  "ASAP"-tuotantotiimi | P3 |
+|VAT0001|  | Practical | "ASAP"-production team | P1 |
+|VAT0002| The user can change password when required | Practical |  "ASAP"-production team | P5 |
+|VAT0003| After the password change, the user doesn't need to re-login | Practical |  "ASAP"-production team | P3 |
 
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
+  * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Tunnistetut laadulliset /ei-toiminnalliset vaatimukset (Non-Functional Requirements)
+## Indentified Non-Functional Requirements
 
-  * [Esimerkkejä tietoturvavaatimuksista](https://confluence.csc.fi/display/oppija/10.+Tietoturvavaatimukset)
+  * [Examples of information security requirements](https://confluence.csc.fi/display/oppija/10.+Tietoturvavaatimukset)
 
-| Vaatimus ID | Kuvaus | Tyyppi | Osa-alue | Vastuullinen | Prioriteetti | 
+| Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAL0201| Palvelun pitää skaalatua hetkellisesti 1000 käyttäjälle | Skaalautuvuus | "ASAP"-tuotantotiimi | P1 |
-|VAL0202| Palvelun saatavuus on oltava 99.1 % | Stabiilisuus |  "ASAP"-tuotantotiimi | P5 |
-|VAL0203| Käyttäjän tiedot on salattavat | Tietoturva |  "ASAP"-tuotantotiimi | P3 |
+|VAL0201| The service has to be able to scale for 1000 users for a moment | Scalability | "ASAP"-production team | P1 |
+|VAL0202| Service availability has to be 99.1% | Stability |  "ASAP"-production team | P5 |
+|VAL0203| User info has to be protected | Information Security |  "ASAP"-production team | P3 |
 
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
+  * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-### Käytettävyys
+### Usability
 
-  * Mitä on otettava huomioon ?
-  * Asiakkaan toiveet ?
-  * Teknologiset osa-alueet/asiat, jotka vaikuttavat käytettävyyteen?
+  * What has to be taken into consideration ?
+  * Wishes of the client ?
+  * Technological divisions/things that affect availability?
 
-# Käyttöliittymä prototyyppi
-
-
-### Prototyypin esittely
-
-   * Linkit prototyyppi ympäristöön
-   * Tarvittavat tiedot prototyypin tarkasteluun
+# User interface prototype
 
 
-## Palvelun/ohjelmiston arkkitehtuuri
+### Prototype introduction
 
-  * Tämä osio voidaan sisällyttää osaksi teknistä suunnittelua. 
-  * Vaatimusmäärittelyssä voi kuitenkin olla  hyvä tarvittaessa kuvata yleistä totetutusta ja siihen liittyviä ongelmakohtia
-  
+   * Links to the prototype environment
+   * Necessary information for the inspection of the prototype
+
+
+## Service/software architecture
+
+  * This section can be merged with technical designing
+  * In regards of requirement definitions, it could be useful to describe the general implementation and problems associated with it.
 
 ![](https://camo.githubusercontent.com/5c169deb4debb278bb6219208f577843075ddab3/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6179707170797376726831316133312f636f6e747269626f6172642d6172636869746563747572652e706e673f646c3d31)
 
-   * [Esimerkki elävästä elämästä](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
+   * [Example from real life](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
 
 
 
 
-### Luokkaehdokkaat (Class proposal)
+### Class proposal
 
-  * Yleensä osa tarkempaa suunnittelua
-  * Voidaan viitata linkeillä...
+  * Usually a part of a more detailed design
+  * Can be referred with links...
 
-  * Tunnistetut luokkaehdokkaat
+  * Identified class proposals
 
 ![](https://www.lucidchart.com/publicSegments/view/16b2b5a7-f349-48bf-8efb-594521131e09/image.png)
 
-### Luokkamalli (Class Diagram)
+### Class Diagram
 
-  * Ainoastaan karkea kuvaus tarpeen ?
+  * Only a rough description necessary?
 
 ![](https://www.lucidchart.com/publicSegments/view/c680dd6c-6e68-43b7-bf6c-421bbe21a17c/image.png)
 
-### Toiminta kuvaus (Sequence Diagram)
+### Sequence Diagram
 
-  * Sekvenssikuvalla on aika kätevä esittää muutakin
+  * Sequence diagram is a convenient tool to present other thingss
 
 ![](https://en.wikipedia.org/wiki/File:CheckEmail.svg)
 
-### Sijoittelunäkymä (Deployment diagram
+### Deployment diagram
 
-  * Vaatimusmäärittelyssä tämä saattaa olla yksi hyödyllisimpiä UML-kuvauksia ?
-  * Miten ohjelmisto/palvelu tulee karkeasti toimimaan osana vanhaa totetutusta..
-  * Miten olemassa oleva järjestelmä tulee karkeasti toimimaan
+  * In requirement defining this might be the most useful UML-depictions?
+  * How the software/service will roughly work along with an older solution...
+  * How the existing system will roughly work
 
 ![](https://www.lucidchart.com/publicSegments/view/6f727a36-f880-4dca-b5ac-133f6f860697/image.png)
 
 
-## Riskiperustainen esi-testaussuunnitelma
+## Risk-based pre-testing plan
 
-### Tunnistetut riskit ja testikohtee
+### Known risks and test subjects
 
-  * Riski -> Testaustarve
-  * Vaatimus -> Testaustarve
-
-
-##  Julkaisusuunnitelma ja priorisointi
-
-Julkaisujärjestys ei aina ole lineaarinen. [Ks. Kriittinen polku](https://fi.wikipedia.org/wiki/Kriittinen_polku)
-Joskus se saattaa tuntua siltä: [Release Plan](https://wiki.documentfoundation.org/ReleasePlan)
+  * Risk -> The need to test
+  * Requirement -> The need to test
 
 
-Toiminnallisuudet ja toteuttamisjärjestys
+##  Publishing plan and prioritizing
 
-  * Ominaisuus 1 - Maaliskuu 2019
-  * Ominaisuus 3 - Huhtikuu 2019
-  * Ominaisuus 5 - Toukokuu 2019
-  * Ominaisuus 2 - Syyskuu 2019
+Publishing order isn't always linear. [Ks. Kriittinen polku](https://fi.wikipedia.org/wiki/Kriittinen_polku)
+Althought sometimes it might feel like it:  [Release Plan](https://wiki.documentfoundation.org/ReleasePlan)
+
+Functionality and implementation order
+
+  * Feature 1 - March 2019
+  * Feature 3 - April 2019
+  * Feature 5 - May 2019
+  * Feature 2 - September 2019
   *     
 
 
-### Priorisointi 
+### Prioritizing
 
 
-  * Miten taulukoita luetaan: P1 = Erittäin tärkeä, P3 = Oleellinen, P5 = Triviaali
+  * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Standardit ja lähteet
+## Standards and sources
 
   * ISTQB
   * IPMA

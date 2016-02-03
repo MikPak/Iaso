@@ -232,8 +232,6 @@ Software sub-sections/blocks?
 |YVA0002| Service has to compatible with Windows Phone | Implementation |  "ASAP"-tuotantotiimi | P2 |
 |YVA0003| Service has to compatible with Windows 95!!!! | Implementation|  "ASAP"-tuotantotiimi | P5 |
 
-////////////////////////////////////////////////////////TO BE CONTINUED///////////////////////////////////////////////////////
-
 ## Identified Functional Requirements
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 

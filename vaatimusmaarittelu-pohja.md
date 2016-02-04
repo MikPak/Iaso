@@ -9,49 +9,60 @@ Regards: NarsuMan
 
 ## XXXXXX-service/software requirement definition
 
-Document's version number X.Y
+Document's version number 0.1
 
 ### Material classification
 
-Protected/public
+Public
 
 ### Permission
 
 Who owns the document?
 
-
+This document is owned by JAMK University of Applied Sciences.
 
 ## Contents
 
 Table of contents?
 
+//TODO
+
 
 ## Introduction
 
   * What is the purpose of this document
+  -This document is for specifying the requirements for this project
   * What is it associated with?
-  * Important thing to know
+  -This document is for an online quiz game for nursing students
+  * Important things to know
+  -This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
   * Relevant information to the reader?
+  -
 
 ### Short product/service description/customer profile
 
   * What is expected of the defined service? Briefly
+  -an online quiz game for nursing students. The game improves the deduction skills, mathematical skills, and the ability to read  pharmaceutical information. 
   * Client story
+  -
 
 ### Client
 
   * Who is the client, contact information ?
-  * If the information is on the project plan, put the links here!
+  -Nursing department of JAMK University of Applied Sciences
+  (If the information is on the project plan, put the links here!)
 
 ### Supplier
 
   * Who is the supplier, contact information?
-  * If the information is on the project plan, put the links here!
+  -
+  (If the information is on the project plan, put the links here!)
 
 ### Schedule
 
   * What is initially going to be made and when?
-  * Recommended to be a part of the project plan?
+  - 
+  (Recommended to be a part of the project plan)
 
 | Waypoint | Begins | Ends | | | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -62,6 +73,8 @@ Table of contents?
 
 ## Service's/Software's known stakeholders and customers
 
+-Customers: Nursing department of JAMK University of Applied Sciences
+-Stakeholders: Marko Rintamäki, Matti Mieskolainen
 
 ### Stakeholders
 
@@ -87,12 +100,9 @@ Identified customer profiles
 
 Examples! Replace
 
-  * Client 1, Mauno Mainio, 67, retired, Vierumäki, from Northern-Savosta (Math teacher)
-  * Client 2, Riku Rikas, 30, IT-entrepreneur, unknown, from no-mans land
-  * Client 3, Siiri Koikkalainen 99, grandmother, Hankasalmi, (Blind)
-  * Client4, John Rambu, 55, unknown, Helsinki, (Bad Man)
-
-On the other hand it might be rational to create a new page for each customer profile
+  * Client 1, First year Nursing student
+  * Client 2, 2-3 year Nursing student
+  * Client 3, Nursing student that is has almost graduated, or has already graduated
 
   * [Link to customer profile 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
   * [Link to customer profile 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
@@ -118,10 +128,9 @@ In which sub-section can you divide the software/service?
 
 Is there any different product versions to different environments, what?
 
-  * Desktop version?
-  * Mobile version?
-  * Field version 
-
+  - Desktop version
+  - Mobile version
+  
 Software sub-sections/blocks?
 
   * Control panel?
@@ -136,51 +145,48 @@ Software sub-sections/blocks?
 
 ### Customer Journey Map usage [clientprofile_1] point of view
 
-* lorem ipsum
-* Blue Print-picture ?
 
 
 ### Customer Journey Map usage [clientprofile_2] point of view
 
-* lorem ipsum
-* Blue Print-picture ?
 
 ### Customer Journey Map usage [clientprofile_3] point of view
 
-* lorem ipsum
-* Blue Print-picture ?
 
 
 ## The most important features
 
   * Marking the most important features
+  - 
   * What are the essential features?
+  -
   * [Check MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
+  -
 
 ### Feature 1
 
-  * Description Kuvaus
+  * Description
   * Requirements of the feature?
   * UI-View ?
   * To be noted during testing
 
 ### Feature 2
 
-  * Description Kuvaus
+  * Description
   * Requirements of the feature?
   * UI-View ?
   * To be noted during testing
 
 ### Feature 3
 
-  * Description Kuvaus
+  * Description
   * Requirements of the feature?
   * UI-View ?
   * To be noted during testing
 
 ### Feature 4
 
-  * Description Kuvaus
+  * Description
   * Requirements of the feature?
   * UI-View ?
   * To be noted during testing
@@ -258,8 +264,11 @@ Software sub-sections/blocks?
 ### Usability
 
   * What has to be taken into consideration ?
+  -
   * Wishes of the client ?
+  -
   * Technological divisions/things that affect availability?
+  -
 
 # User interface prototype
 

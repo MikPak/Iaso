@@ -65,7 +65,7 @@ Table of contents?
 
 ## Service's/Software's known stakeholders and customers
 
--Customers: Nursing department of JAMK University of Applied Sciences (Niilo)
+* Customers: Nursing department of JAMK University of Applied Sciences (Niilo)
 -Stakeholders: Marko Rintamäki, Matti Mieskolainen
 
 ### Stakeholders

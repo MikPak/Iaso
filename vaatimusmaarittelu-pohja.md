@@ -9,7 +9,7 @@ Regards: NarsuMan
 
 ## XXXXXX-service/software requirement definition
 
-Document version number 0.21
+Document version number 0.2
 
 ### Material classification
 
@@ -231,7 +231,7 @@ Software sub-sections/blocks?
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Indentified Non-Functional Requirements
+## Identified Non-Functional Requirements
 
   * [Examples of information security requirements](https://confluence.csc.fi/display/oppija/10.+Tietoturvavaatimukset)
 

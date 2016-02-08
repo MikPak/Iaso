@@ -9,7 +9,7 @@ Regards: NarsuMan
 
 ## XXXXXX-service/software requirement definition
 
-Document's version number 0.1
+Document version number 0.2
 
 ### Material classification
 
@@ -17,15 +17,13 @@ Public
 
 ### Permission
 
-Who owns the document?
-
 This document is owned by JAMK University of Applied Sciences.
 
 ## Contents
 
 Table of contents?
 
-//TODO
+//TO DO
 
 
 ## Introduction
@@ -37,14 +35,14 @@ Table of contents?
   * Important things to know
   -This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
   * Relevant information to the reader?
-  -
+  - //DO THIS ONE LAST
 
 ### Short product/service description/customer profile
 
   * What is expected of the defined service? Briefly
-  -an online quiz game for nursing students. The game improves the deduction skills, mathematical skills, and the ability to read  pharmaceutical information. 
+  -an online quiz game for nursing students. The game improves deduction skills, mathematical skills, and the ability to read  pharmaceutical information. 
   * Client story
-  -
+  - //TO DO
 
 ### Client
 
@@ -55,13 +53,13 @@ Table of contents?
 ### Supplier
 
   * Who is the supplier, contact information?
-  -
+  - //DO WE HAVE ONE?
   (If the information is on the project plan, put the links here!)
 
 ### Schedule
 
   * What is initially going to be made and when?
-  - 
+  - //TO DO
   (Recommended to be a part of the project plan)
 
 | Waypoint | Begins | Ends | | | 
@@ -78,31 +76,16 @@ Table of contents?
 
 ### Stakeholders
 
-* https://en.wikipedia.org/wiki/Stakeholder_analysis
-* [What is a stakeholder?](https://fi.wikipedia.org/wiki/Sidosryhm%C3%A4)
 * Who is interested about the product or who has the "say" in regards of the product development?
-
-Stakeholders (examples)
-
-* [Link to the stakeholder's web page]()
-* Mungo consulting Oy, Service Provider
-* InvestorA, company stakeholder, Bankoman Oy, stakeholder 55 %
-* InvestorB, company stakeholder, Mauri Bosse, owns 5 %
-* Production team A, e.g company employees, Kalle, Kille, Pelle ja Pöppö
-* Grand investor A, NordMan Oy, company client
-* Grand investor B, Bill Cates Window factory, company client
-* Bad Man, troublemaker
-* Snake Consulting Oy, competitor
+- Marko Rintamäki, Matti Mieskolainen, Nursing Department of JAMK University of Applied Sciences
 
 Identified customer profiles
 
 ## Customer Profiles
 
-Examples! Replace
-
   * Client 1, First year Nursing student
   * Client 2, 2-3 year Nursing student
-  * Client 3, Nursing student that is has almost graduated, or has already graduated
+  * Client 3, Nursing student that has almost graduated, or has already graduated
 
   * [Link to customer profile 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
   * [Link to customer profile 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
@@ -126,12 +109,16 @@ Covering the customer path, in which named stakeholder representatives are used
 
 In which sub-section can you divide the software/service?
 
+//TO DO
+
 Is there any different product versions to different environments, what?
 
   - Desktop version
   - Mobile version
   
 Software sub-sections/blocks?
+
+//TO DO
 
   * Control panel?
   * Database services?
@@ -142,16 +129,20 @@ Software sub-sections/blocks?
 ## The most vital Customer Journey Maps (Asiakaspolku) regarding the chosen client profiles
 
   * Specifying the description to fit the project?
+  // TO DO
 
 ### Customer Journey Map usage [clientprofile_1] point of view
 
+// TO DO
 
 
 ### Customer Journey Map usage [clientprofile_2] point of view
 
+// TO DO
 
 ### Customer Journey Map usage [clientprofile_3] point of view
 
+// TO DO
 
 
 ## The most important features

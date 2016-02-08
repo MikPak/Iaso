@@ -63,6 +63,8 @@ Table of contents?
 | Preview | 25.2.2017 | |  | P1 |
 | Requirement defining is over | 28.2.2017 | 12.2.2017 |  | P1 |
 
+//For material check: ( https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog ) and Gantter:https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing
+
 ## Service's/Software's known stakeholders and customers
 
 * Customers: Nursing department of JAMK University of Applied Sciences (Niilo)
@@ -80,7 +82,6 @@ Identified customer profiles
   * Client 1, First year Nursing student
   * Client 2, 2-3 year Nursing student
   * Client 3, Nursing student that has almost graduated, or has already graduated
-
   * [Link to customer profiles ](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
 
 ## Stakeholder map
@@ -147,6 +148,7 @@ Software sub-sections/blocks?
 
 ### Feature 1
 
+//Software
   * Description
   * Requirements of the feature?
   * UI-View ?
@@ -154,6 +156,7 @@ Software sub-sections/blocks?
 
 ### Feature 2
 
+//Database
   * Description
   * Requirements of the feature?
   * UI-View ?
@@ -322,7 +325,6 @@ Functionality and implementation order
   * Feature 3 - April 2019
   * Feature 5 - May 2019
   * Feature 2 - September 2019
-  *     
 
 
 ### Prioritizing

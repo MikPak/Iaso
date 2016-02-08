@@ -9,7 +9,7 @@ Regards: NarsuMan
 
 ## XXXXXX-service/software requirement definition
 
-Document version number 0.2
+Document version number 0.21
 
 ### Material classification
 
@@ -47,13 +47,7 @@ Table of contents?
 ### Client
 
   * Who is the client, contact information ?
-  -Nursing department of JAMK University of Applied Sciences
-  (If the information is on the project plan, put the links here!)
-
-### Supplier
-
-  * Who is the supplier, contact information?
-  - //DO WE HAVE ONE?
+  -Nursing department of JAMK University of Applied Sciences (Niilo)
   (If the information is on the project plan, put the links here!)
 
 ### Schedule
@@ -71,13 +65,13 @@ Table of contents?
 
 ## Service's/Software's known stakeholders and customers
 
--Customers: Nursing department of JAMK University of Applied Sciences
+-Customers: Nursing department of JAMK University of Applied Sciences (Niilo)
 -Stakeholders: Marko Rintamäki, Matti Mieskolainen
 
 ### Stakeholders
 
 * Who is interested about the product or who has the "say" in regards of the product development?
-- Marko Rintamäki, Matti Mieskolainen, Nursing Department of JAMK University of Applied Sciences
+- Marko Rintamäki, Matti Mieskolainen, Nursing Department of JAMK University of Applied Sciences (Niilo)
 
 Identified customer profiles
 
@@ -87,10 +81,7 @@ Identified customer profiles
   * Client 2, 2-3 year Nursing student
   * Client 3, Nursing student that has almost graduated, or has already graduated
 
-  * [Link to customer profile 1](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-  * [Link to customer profile 2](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-  * [Link to customer profile 3](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
-
+  * [Link to customer profiles ](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
 
 ## Stakeholder map
 
@@ -255,11 +246,11 @@ Software sub-sections/blocks?
 ### Usability
 
   * What has to be taken into consideration ?
-  -
+  - // TO DO
   * Wishes of the client ?
-  -
+  - // TO DO
   * Technological divisions/things that affect availability?
-  -
+  - // TO DO
 
 # User interface prototype
 

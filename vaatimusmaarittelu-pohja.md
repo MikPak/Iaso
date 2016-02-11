@@ -53,7 +53,7 @@ Table of contents?
 ### Schedule
   (Recommended to be a part of the project plan)
 
-| Waypoint | Begins | Ends | | | 
+| Waypoint | Begins | Ends | Sprint | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | Setting up the the tools for the project, translating documents | 11.1.2016 | 17.1.2016 | S1
 | More translation work, customer Q&A  | 18.1.2016 | 24.1.2016 | S2

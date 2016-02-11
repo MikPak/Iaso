@@ -184,6 +184,27 @@ Database
    * Identifying the risks of the software/service..
    * [Risk control](https://fi.wikipedia.org/wiki/Riskienhallinta)
 
+| RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISKFACTOR | WHO's RESPONSIBLE? | SOLUTION |
+|:----|:----|:----|:----|:----|:----|
+
+| RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | T3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
+| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | T4 | R12| | - | Find out what has been understood correctly and start building on that |
+| RISK03 | Timeschedule plannings are insufficient | Product is not finished on given delivery date | V3 | T3 | R9 | Team Member | Spread the work tasks evenly |
+| RISK04 | A group member disappears | The project is delayed | V4 | T1 | R4 | All | Keep the rest of the group functional |
+| RISK05 | A group member gets ill | The project is delayed | V3 | T3 | R9 | All | Try to patch the ill persons contribution |
+| RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | T2 | R10 | - | 	Try to exploit the best aspects of the group members |
+| RISK07 | Customer don't have time to meet | Problems to understand client | V4 | T2 | R8 | - | Try to get a meeting soon as possible |
+| RISK08 | Customer disappears | The funding ends | V5 | T1 | R5 | - | Actively try to have contact with the customer |
+
+
+| Severity | Description | Add |
+|:----:|:----:|:----:|
+| V1 | Serious trouble | | 
+| V2 | | | 
+| V3 | | | 
+| V4 | | | 
+| V5 | No effect, under examination. | | 
+
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | P1 |

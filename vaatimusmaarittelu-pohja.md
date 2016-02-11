@@ -65,7 +65,9 @@ Table of contents?
 | Finishing the project and presentation of the project  | 11.4.2016 | 17.4.2016 | S14 |
 | The project is over  | 18.4.2016 | 18.4.2016 | S15 |
 
-//For material check: ( https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog ) and Gantter:https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing
+For more:
+* [Gannt Chart] (https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
+* [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog ) and Gantter: https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
 
 ## Service's/Software's known stakeholders and customers
 
@@ -181,10 +183,7 @@ Database
 
 ## Risks
 
-   * Identifying the risks of the software/service..
-   * [Risk control](https://fi.wikipedia.org/wiki/Riskienhallinta)
-
-| RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISK FACTOR | WHO's RESPONSIBLE? | SOLUTION |
+| RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISK FACTOR | WHO'S RESPONSIBLE? | SOLUTION |
 |:----|:----|:----|:----|:----|:----|:----|:----|
 | RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | P3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
 | RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | P4 | R12| | - | Find out what has been understood correctly and start building on that |
@@ -221,6 +220,8 @@ Risk Factor (R) (V*P = R)
 | R(13-19) | Has to be monitored, the situation has to be reported to the stakeholders, actions to minimize the risk should be taken | | 
 | R(20-25) | Actions to dimish the risk should be taken immediately | | 
 
+//TO DO
+
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | P1 |
@@ -229,17 +230,15 @@ Risk Factor (R) (V*P = R)
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-## Functional Requirements
+## Functional Requirements //TO DO
 
   * In this section you can raise notable requirements that are good to keep in mind!
 
 | Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| Service has to compatible with Android version 4.x and later | Technical | "ASAP"- | P1 |
-|YVA0002| Service has to compatible with Windows Phone | Implementation |  "ASAP"-tuotantotiimi | P2 |
-|YVA0003| Service has to compatible with Windows 95!!!! | Implementation|  "ASAP"-tuotantotiimi | P5 |
+|YVA0001| Service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P1 |
 
-## Identified Functional Requirements
+## Identified Functional Requirements //TO DO
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -250,7 +249,7 @@ Risk Factor (R) (V*P = R)
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Identified Non-Functional Requirements
+## Identified Non-Functional Requirements //TO DO
 
   * [Examples of information security requirements](https://confluence.csc.fi/display/oppija/10.+Tietoturvavaatimukset)
 
@@ -262,7 +261,7 @@ Risk Factor (R) (V*P = R)
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-### Usability
+### Usability //TO DO
 
   * What has to be taken into consideration ?
   - // TO DO
@@ -274,13 +273,13 @@ Risk Factor (R) (V*P = R)
 # User interface prototype
 
 
-### Prototype introduction
+### Prototype introduction //TO DO
 
    * Links to the prototype environment
    * Necessary information for the inspection of the prototype
 
 
-## Service/software architecture
+## Service/software architecture //TO DO
 
   * This section can be merged with technical designing
   * In regards of requirement definitions, it could be useful to describe the general implementation and problems associated with it.
@@ -289,7 +288,7 @@ Risk Factor (R) (V*P = R)
 
    * [Example from real life](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
 
-### Class proposal
+### Class proposal //TO DO
 
   * Usually a part of a more detailed design
   * Can be referred with links...
@@ -297,19 +296,19 @@ Risk Factor (R) (V*P = R)
 
 ![](https://www.lucidchart.com/publicSegments/view/16b2b5a7-f349-48bf-8efb-594521131e09/image.png)
 
-### Class Diagram
+### Class Diagram //TO DO
 
   * Only a rough description necessary?
 
 ![](https://www.lucidchart.com/publicSegments/view/c680dd6c-6e68-43b7-bf6c-421bbe21a17c/image.png)
 
-### Sequence Diagram
+### Sequence Diagram //TO DO
 
   * Sequence diagram is a convenient tool to present other things
 
 ![](https://en.wikipedia.org/wiki/File:CheckEmail.svg)
 
-### Deployment diagram
+### Deployment diagram //TO DO
 
   * In requirement defining this might be the most useful UML-depictions?
   * How the software/service will roughly work along with an older solution...
@@ -318,7 +317,7 @@ Risk Factor (R) (V*P = R)
 ![](https://www.lucidchart.com/publicSegments/view/6f727a36-f880-4dca-b5ac-133f6f860697/image.png)
 
 
-## Risk-based pre-testing plan
+## Risk-based pre-testing plan //TO DO
 
 ### Known risks and test subjects
 
@@ -344,7 +343,7 @@ Functionality and implementation order
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Standards and sources
+## Standards and sources //TO DO
 
   * ISTQB
   * IPMA
@@ -352,9 +351,7 @@ Functionality and implementation order
 
 
 
-# Lähteet
-
-# Lähteitä
+# Sources
 
   * https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
 

@@ -184,25 +184,42 @@ Database
    * Identifying the risks of the software/service..
    * [Risk control](https://fi.wikipedia.org/wiki/Riskienhallinta)
 
-| RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISKFACTOR | WHO's RESPONSIBLE? | SOLUTION |
+| RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISK FACTOR | WHO's RESPONSIBLE? | SOLUTION |
 |:----|:----|:----|:----|:----|:----|:----|:----|
-| RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | T3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
-| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | T4 | R12| | - | Find out what has been understood correctly and start building on that |
-| RISK03 | Timeschedule plannings are insufficient | Product is not finished on given delivery date | V3 | T3 | R9 | Team Member | Spread the work tasks evenly |
-| RISK04 | A group member disappears | The project is delayed | V4 | T1 | R4 | All | Keep the rest of the group functional |
-| RISK05 | A group member gets ill | The project is delayed | V3 | T3 | R9 | All | Try to patch the ill persons contribution |
-| RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | T2 | R10 | - | 	Try to exploit the best aspects of the group members |
-| RISK07 | Customer don't have time to meet | Problems to understand client | V4 | T2 | R8 | - | Try to get a meeting soon as possible |
-| RISK08 | Customer disappears | The funding ends | V5 | T1 | R5 | - | Actively try to have contact with the customer |
+| RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | P3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
+| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | P4 | R12| | - | Find out what has been understood correctly and start building on that |
+| RISK03 | Timeschedule plannings are insufficient | Product is not finished on given delivery date | V3 | P3 | R9 | Team Member | Spread the work tasks evenly |
+| RISK04 | A group member disappears | The project is delayed | V4 | P1 | R4 | All | Keep the rest of the group functional |
+| RISK05 | A group member gets ill | The project is delayed | V3 | P3 | R9 | All | Try to patch the ill persons contribution |
+| RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | P2 | R10 | - | 	Try to exploit the best aspects of the group members |
+| RISK07 | Customer don't have time to meet | Problems to understand client | V4 | P2 | R8 | - | Try to get a meeting soon as possible |
+| RISK08 | Customer disappears | The funding ends | V5 | P1 | R5 | - | Actively try to have contact with the customer |
 
 
 | Severity | Description | Add |
 |:----:|:----:|:----:|
-| V1 | Serious trouble | | 
-| V2 | | | 
-| V3 | | | 
-| V4 | | | 
-| V5 | No effect, under examination. | | 
+| V1 | Minor, if the problem becomes recurring it affect the project | |
+| V2 | Can be perceived easily, affects the project but shouldn't hinder it | |
+| V3 | Significant, affects significantly on the project success and/or outcome, but the effect can be limited by the group | | 
+| V4 | Serious, affects significantly on the project success and/or outcome | |
+| V5 | Extremely severe, destructive effect on the project | |
+
+| Probability | Description | Add |
+|:----:|:----:|:----:|
+| P1 | Can be identified easily, but has a very slight probability | | 
+| P2 | Clearly identified, but the probability is small | | 
+| P3 | Medium, the probability has to be taken into consideration | | 
+| P4 | Very likely probablity, has to be monitored regularly | | 
+| P5 | Certain to happen | | 
+
+Risk Factor (R) (V*P = R)
+
+| Risk Factor | Description | Add |
+|:----:|:----:|:----:|
+| R(0-6) | Small or unlikely risks | | 
+| R(7-12) | Should be taken into consideration | | 
+| R(13-19) | Has to be monitored, the situation has to be reported to the stakeholders, actions to minimize the risk should be taken | | 
+| R(20-25) | Actions to dimish the risk should be taken immediately | | 
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|

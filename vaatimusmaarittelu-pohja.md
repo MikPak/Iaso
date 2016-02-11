@@ -185,7 +185,7 @@ Database
    * [Risk control](https://fi.wikipedia.org/wiki/Riskienhallinta)
 
 | RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISKFACTOR | WHO's RESPONSIBLE? | SOLUTION |
-|:----|:----|:----|:----|:----|:----||:----||:----|
+|:----|:----|:----|:----|:----|:----|:----|:----|
 
 | RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | T3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
 | RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | T4 | R12| | - | Find out what has been understood correctly and start building on that |

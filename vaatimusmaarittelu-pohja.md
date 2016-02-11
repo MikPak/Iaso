@@ -1,15 +1,13 @@
 # About the document
 
-This document is a "living"-document, which is updates regularly. It is a rough requirement definition document's structure that can be used as a layout for requirement defining for various projects. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly. The creator doesn't that any credit of the document's content.
+This document is a "living"-document, which is updates regularly. It is a rough requirement definition document's structure that can be used as a layout for requirement defining for various projects. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly.
 
 Regards: NarsuMan
 
 
-
-
 ## XXXXXX-service/software requirement definition
 
-Document version number 0.2
+Document version number 0.3
 
 ### Material classification
 
@@ -52,12 +50,13 @@ Table of contents?
 
 ### Schedule
   (Recommended to be a part of the project plan)
+  //Gant versio mielummin?
 
 | Waypoint | Begins | Ends | Sprint | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
 | Setting up the the tools for the project, translating documents | 11.1.2016 | 17.1.2016 | S1 |
 | More translation work, customer Q&A  | 18.1.2016 | 24.1.2016 | S2 |
-| Mockup scetch, more documentation (project plan, communication plan etc.), database planning  | 25.1.2016 | 31.2.2016 | S3 |
+| Mockup sketch, more documentation (project plan, communication plan etc.), database planning  | 25.1.2016 | 31.2.2016 | S3 |
 | Mockup implementation, requirement specs, project plan and contract  | 1.2.2016 | 6.2.2016 | S4 |
 | Presenting the mockup, collecting feedback for evaluation, preview of the documentation | 7.2.2016 | 14.2.2016 | S5 |
 | Ratifying the contracts and plans (signing the contract with the client), production begins | 15.2.2016 | 21.2.2016 | S6 |
@@ -77,7 +76,7 @@ Table of contents?
 ## Service's/Software's known stakeholders and customers
 
 * Customers: Nursing department of JAMK University of Applied Sciences (Niilo)
--Stakeholders: Marko Rintamäki, Matti Mieskolainen
+* Stakeholders: Marko Rintamäki, Matti Mieskolainen
 
 ### Stakeholders
 
@@ -108,24 +107,17 @@ Covering the customer path, in which named stakeholder representatives are used
 
 ## Service Domain areas
 
-In which sub-section can you divide the software/service?
-
-//TO DO
-
 Is there any different product versions to different environments, what?
 
-  - Desktop version
-  - Mobile version
+  * Desktop version
+  * Mobile version
   
-Software sub-sections/blocks?
+Software sub-sections/blocks
 
-//TO DO
-
-  * Control panel?
-  * Database services?
-  * User interfaces?
-  * Authentication?
-  * Billing?
+  * Database
+  * PHP/HTML
+  * Business Logic
+  * UI
 
 ## The most vital Customer Journey Maps (Asiakaspolku) regarding the chosen client profiles
 
@@ -135,7 +127,6 @@ Software sub-sections/blocks?
 ### Customer Journey Map usage [clientprofile_1] point of view
 
 // TO DO
-
 
 ### Customer Journey Map usage [clientprofile_2] point of view
 
@@ -149,30 +140,27 @@ Software sub-sections/blocks?
 ## The most important features
 
   * Marking the most important features
-  - 
+  - Database, Game (code and logic)
   * What are the essential features?
   -
   * [Check MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
-  -
 
 ### Feature 1
 
-//Software?
-  * Description
-  * Requirements of the feature?
-  * UI-View ?
-  * To be noted during testing
+The Game (code and logic)
+  * Description: A quiz game for nursing students in order to memorize drugs and medical knowledge
+  * Requirements of the feature: The game requires the user to know the following about drugs: side effects, product names, intended use, administration, and conversion calculations
+  * UI-View: //Link to mockup?
+  * To be noted during testing: The game should be usable for medical students of all levels
 
 ### Feature 2
 
-//Database?
-  * Description
-  * Requirements of the feature?
-  * UI-View ?
-  * To be noted during testing
+Database
+  * Description: A drug database for the game
+  * Requirements of the feature: Most common drugs should be featured
+  * To be noted during testing: //todo
 
 ### Feature 3
-
   * Description
   * Requirements of the feature?
   * UI-View ?

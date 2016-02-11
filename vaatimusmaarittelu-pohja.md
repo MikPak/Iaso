@@ -55,21 +55,21 @@ Table of contents?
 
 | Waypoint | Begins | Ends | | | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
-| Setting up the the tools for the project, translating documents | 11.1.2016 | 17.1.2016 |  | S1 |
-| More translation work, customer Q&A  | 18.1.2016 | 24.1.2016 |  | S2 |
-| Mockup scetch, more documentation (project plan, communication plan etc.), database planning  | 25.1.2016 | 31.2.2016 |  | S3|
-| Mockup implementation, requirement specs, project plan and contract  | 1.2.2016 | 6.2.2016 |  | S4 |
-| Presenting the mockup, collecting feedback for evaluation, preview of the documentation | 7.2.2016 | 14.2.2016 |  | S5 |
-| Ratifying the contracts and plans (signing the contract with the client), production begins | 15.2.2016 | 21.2.2016 |  | S6 |
-| Fixing the contract if necessary, working on the project  | 22.2.2016 | 28.2.2016 |  | S7 |
-| Inviting the client to a meeting, working on the project  | 29.2.2016 | 6.3.2016 |  | S8 |
-| Executive committee meeting with the client, working of the project  | 7.3.2016 | 13.3.2016 |  | S9 |
-| Working on the project | 14.3.2016 | 20.3.2016 |  | S10 |
-| Working on the project  | 21.3.2016 | 27.3.2016 |  | S11 |
-| Demos and collecting feedback, working on the project  | 28.3.2016 | 3.4.2016 |  | S12 |
-| Fixing, testing, working on the project  | 4.4.2016 | 10.4.2016 |  | S13 |
-| Finishing the project and presentation of the project  | 11.4.2016 | 17.4.2016 |  | S14 |
-| The project is over  | 18.4.2016 | 18.4.2016 |  | S15 |
+| Setting up the the tools for the project, translating documents | 11.1.2016 | 17.1.2016 | S1 |
+| More translation work, customer Q&A  | 18.1.2016 | 24.1.2016 | S2 |
+| Mockup scetch, more documentation (project plan, communication plan etc.), database planning  | 25.1.2016 | 31.2.2016 | S3 |
+| Mockup implementation, requirement specs, project plan and contract  | 1.2.2016 | 6.2.2016 | S4 |
+| Presenting the mockup, collecting feedback for evaluation, preview of the documentation | 7.2.2016 | 14.2.2016 | S5 |
+| Ratifying the contracts and plans (signing the contract with the client), production begins | 15.2.2016 | 21.2.2016 | S6 |
+| Fixing the contract if necessary, working on the project  | 22.2.2016 | 28.2.2016 | S7 |
+| Inviting the client to a meeting, working on the project  | 29.2.2016 | 6.3.2016 | S8 |
+| Executive committee meeting with the client, working of the project  | 7.3.2016 | 13.3.2016 | S9 |
+| Working on the project | 14.3.2016 | 20.3.2016 | S10 |
+| Demos and collecting feedback, working on the project  | 21.3.2016 | 27.3.2016 | S11 |
+| Fixing, testing, working on the project  | 28.3.2016 | 3.4.2016 | S12 |
+| Fixing, testing, working on the project  | 4.4.2016 | 10.4.2016 | S13 |
+| Finishing the project and presentation of the project  | 11.4.2016 | 17.4.2016 | S14 |
+| The project is over  | 18.4.2016 | 18.4.2016 | S15 |
 
 
 //For material check: ( https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog ) and Gantter:https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing
@@ -157,7 +157,7 @@ Software sub-sections/blocks?
 
 ### Feature 1
 
-//Software
+//Software?
   * Description
   * Requirements of the feature?
   * UI-View ?
@@ -165,7 +165,7 @@ Software sub-sections/blocks?
 
 ### Feature 2
 
-//Database
+//Database?
   * Description
   * Requirements of the feature?
   * UI-View ?

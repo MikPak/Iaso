@@ -186,7 +186,6 @@ Database
 
 | RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISKFACTOR | WHO's RESPONSIBLE? | SOLUTION |
 |:----|:----|:----|:----|:----|:----|:----|:----|
-
 | RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | T3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
 | RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | T4 | R12| | - | Find out what has been understood correctly and start building on that |
 | RISK03 | Timeschedule plannings are insufficient | Product is not finished on given delivery date | V3 | T3 | R9 | Team Member | Spread the work tasks evenly |

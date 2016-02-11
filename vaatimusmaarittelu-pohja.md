@@ -26,26 +26,21 @@ Table of contents?
 
 ## Introduction
 
-  * What is the purpose of this document
-  -This document is for specifying the requirements for this project
-  * What is it associated with?
-  -This document is for an online quiz game for nursing students
-  * Important things to know
-  -This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
+  * This document is for specifying the requirements for this project
+  * This document is for an online quiz game for nursing students
+  * This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
   * Relevant information to the reader?
   - //DO THIS ONE LAST
 
 ### Short product/service description/customer profile
 
-  * What is expected of the defined service? Briefly
-  -an online quiz game for nursing students. The game improves deduction skills, mathematical skills, and the ability to read  pharmaceutical information. 
+  * Service: An online quiz game for nursing students. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
   * Client story
   - //TO DO
 
 ### Client
 
-  * Who is the client, contact information ?
-  -Nursing department of JAMK University of Applied Sciences (Niilo)
+  -Client: Nursing department of JAMK University of Applied Sciences (Niilo)
   (If the information is on the project plan, put the links here!)
 
 ### Schedule
@@ -70,7 +65,6 @@ Table of contents?
 | Finishing the project and presentation of the project  | 11.4.2016 | 17.4.2016 | S14 |
 | The project is over  | 18.4.2016 | 18.4.2016 | S15 |
 
-
 //For material check: ( https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog ) and Gantter:https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing
 
 ## Service's/Software's known stakeholders and customers
@@ -80,8 +74,7 @@ Table of contents?
 
 ### Stakeholders
 
-* Who is interested about the product or who has the "say" in regards of the product development?
-- Marko Rintamäki, Matti Mieskolainen, Nursing Department of JAMK University of Applied Sciences (Niilo)
+*Stakeholders: Marko Rintamäki, Matti Mieskolainen, Nursing Department of JAMK University of Applied Sciences (Niilo)
 
 Identified customer profiles
 
@@ -139,10 +132,8 @@ Software sub-sections/blocks
 
 ## The most important features
 
-  * Marking the most important features
-  - Database, Game (code and logic)
-  * What are the essential features?
-  -
+  * The most important features: Database, Game (code and logic)
+  * The essential features: Database and the game
   * [Check MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
 ### Feature 1
@@ -158,16 +149,9 @@ The Game (code and logic)
 Database
   * Description: A drug database for the game
   * Requirements of the feature: Most common drugs should be featured
-  * To be noted during testing: //todo
+  * To be noted during testing: That it works as intended
 
 ### Feature 3
-  * Description
-  * Requirements of the feature?
-  * UI-View ?
-  * To be noted during testing
-
-### Feature 4
-
   * Description
   * Requirements of the feature?
   * UI-View ?
@@ -204,8 +188,6 @@ Database
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | P1 |
 |RISK002| The usability of the service getting weaker during heavy load | Practical |  | P5 |
-
-
 |RISK003| The effect of a weak internet connection to the service | Practical | - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
@@ -270,14 +252,10 @@ Database
 
    * [Example from real life](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
 
-
-
-
 ### Class proposal
 
   * Usually a part of a more detailed design
   * Can be referred with links...
-
   * Identified class proposals
 
 ![](https://www.lucidchart.com/publicSegments/view/16b2b5a7-f349-48bf-8efb-594521131e09/image.png)
@@ -309,7 +287,6 @@ Database
 
   * Risk -> The need to test
   * Requirement -> The need to test
-
 
 ##  Publishing plan and prioritizing
 

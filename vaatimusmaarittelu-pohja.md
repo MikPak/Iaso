@@ -7,7 +7,7 @@ Regards: NarsuMan
 
 ## XXXXXX-service/software requirement definition
 
-Document version number 0.3
+Document version number 0.4
 
 ### Material classification
 
@@ -40,8 +40,7 @@ Table of contents?
 
 ### Client
 
-  -Client: Nursing department of JAMK University of Applied Sciences (Niilo)
-  (If the information is on the project plan, put the links here!)
+  * Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
 
 ### Schedule
   (Recommended to be a part of the project plan)
@@ -71,12 +70,21 @@ For more:
 
 ## Service's/Software's known stakeholders and customers
 
-* Customers: Nursing department of JAMK University of Applied Sciences (Niilo)
-* Stakeholders: Marko Rintamäki, Matti Mieskolainen
+* Customers: Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
+* Stakeholders: 
+* NarsuMan” Rintamäki, Marko.rintamaki@jamk.fi
+* Matti Mieskolainen matti.mieskolainen@jamk.fi
+* Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi
 
 ### Stakeholders
 
-*Stakeholders: Marko Rintamäki, Matti Mieskolainen, Nursing Department of JAMK University of Applied Sciences (Niilo)
+Supervisors :
+
+* Marko ”NarsuMan” Rintamäki, Marko.rintamaki@jamk.fi
+* Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi 
+* Matti Mieskolainen matti.mieskolainen@jamk.fi
+
+Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 Identified customer profiles
 
@@ -140,7 +148,7 @@ Software sub-sections/blocks
 
 ### Feature 1
 
-The Game (code and logic)
+Quiz-game (code and logic)
   * Description: A quiz game for nursing students in order to memorize drugs and medical knowledge
   * Requirements of the feature: The game requires the user to know the following about drugs: side effects, product names, intended use, administration, and conversion calculations
   * UI-View: //Link to mockup?

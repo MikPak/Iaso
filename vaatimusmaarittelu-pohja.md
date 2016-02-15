@@ -153,12 +153,6 @@ Database
   * Requirements of the feature: Most common drugs should be featured
   * To be noted during testing: That it works as intended
 
-### Feature 3
-  * Description
-  * Requirements of the feature?
-  * UI-View ?
-  * To be noted during testing
-
 ## Use-Cases
 
 ### The most important use-cases as picture
@@ -331,11 +325,8 @@ Althought sometimes it might feel like it:  [Release Plan](https://wiki.document
 
 Functionality and implementation order
 
-  * Feature 1 - March 2019
-  * Feature 3 - April 2019
-  * Feature 5 - May 2019
-  * Feature 2 - September 2019
-
+  * Feature 2 (Database) - March 2016
+  * Feature 1 (Game) - April 2016
 
 ### Prioritizing
 

@@ -9,11 +9,26 @@ This document is an example of a project's plan, in a wiki-like form.
 The purpose of this plan is to define the programs, applications and channels used for communication while working on project X. Clear and efficient ways of communication ensure that the information moves smoothly from a person to another and that the project's quality is up to the pre-defined standards. .
 #	Project parties
 
-## The parties of a project can be divided in to four groups in terms of communication :
-  1.	Team members for the project (nn, yy, zz, ym)
-  2.	Project instructors([hh], jj, kk)
-  3.	The client's representatives (aa, bb, cc)
-  4.	Outsiders (ie. facility staff, professionals, etc.)
+## The parties of the project
+Team members and their contact info : 
+
+Lauri Mäkinen (Manager) H9142@student.jamk.fi
+Olli Nissinen, H8593@student.jamk.fi
+Emil Gusgård, H9594@student.jamk.fi
+Matias Skott, H3128@student.jamk.fi
+Mikko Pakkanen, H8699@student.jamk.fi
+
+
+Supervisors :
+
+Marko ”NarsuMan” Rintamäki, Marko.rintamaki@jamk.fi
+Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi
+
+Client : 
+Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi.
+
+
+
 In this document, we create the foundations for the communication between the project team and three other parties. 
 
 #	General channels for communication

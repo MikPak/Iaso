@@ -22,13 +22,13 @@ This document is owned by JAMK University of Applied Sciences.
 Table of contents?
 
 **Table of Contents**
-- [Introduction](##introduction)
+- [Introduction](##Introduction)
 - [Short product/service description/customer profile](### Short-product/service-description/customer-profile)
 - [Client](### Client)
 - [Service's/Software's known stakeholders and customers](## Service's/Software's known stakeholders and customers)
 
 
-## Introduction (##introduction)
+## Introduction
 
   * This document is for specifying the requirements for this project
   * This document is for an online quiz game for nursing students

@@ -21,7 +21,11 @@ This document is owned by JAMK University of Applied Sciences.
 
 Table of contents?
 
-//TO DO
+**Table of Contents**
+- [Introduction](##introduction)
+- [Short product/service description/customer profile](### Short-product/service-description/customer-profile)
+- [Client](### Client)
+- [Service's/Software's known stakeholders and customers](## Service's/Software's known stakeholders and customers)
 
 
 ## Introduction

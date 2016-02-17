@@ -22,11 +22,46 @@ This document is owned by JAMK University of Applied Sciences.
 Table of contents?
 
 **Table of Contents**
-- [Introduction](#introductions)
-- [Short product/service description/customer profile](#short-description)
+- [Introduction](#introduction)
+- [Short product/service description/customer profile](#short-product-description-and-customer-profile)
 - [Client](#client)
-- [Service's/Software's known stakeholders and customers](#stakeholders-and-customers)
-
+- [Schedule](#schedule)
+- [Known stakeholders and customers of the service](#known-stakeholders-and-customers-of-the-service)
+- [Customer Profiles](#customer-profiles)
+- [Stakeholder map](#stakeholder-map)
+- [General Customer Journey](#general-customer-journey)
+- [Service Domain areas](#service-domain-areas)
+- [The most vital Customer Journey Maps regarding the chosen client profiles](#the-most-vital-customer-journey-maps-regarding-the-chosen-client-profiles)
+- [Customer Journey Map usage (profile1) point of view](#customer-journey-map-usage-(profile1)-point-of-view)
+- [Customer Journey Map usage (profile2) point of view](#customer-journey-map-usage-(profile2)-point-of-view)
+- [Customer Journey Map usage (profile3) point of view](#customer-journey-map-usage-(profile3)-point-of-view)
+- [The most important features](#the-most-important-features)
+- [Feature 1](#feature-1)
+- [Feature 2](#feature-2)
+- [Use-Cases](#use--cases)
+- [The most important use-cases as picture](#the-most-important-use--cases-as-picture)
+- [Use-Case 1](#use--case-1)
+- [Use-Case 2](#use--case-2)
+- [Use-Case 3](#use--case-3)
+- [Use-Case 4](#use--case-4)
+- [Risks](#risks)
+- [Functional Requirements](#functional-requirements)
+- [Identified Functional Requirements](#identified-functional-requirements)
+- [Identified Non-Functional Requirements](#identified-non--functional-requirements)
+- [Usability](#usability)
+- [User interface prototype](#client)
+- [Prototype introduction](#client)
+- [Service architecture](#client)
+- [Class proposal](#client)
+- [Class Diagram](#client)
+- [Sequence Diagram](#client)
+- [Deployment diagram](#client)
+- [Risk-based pre-testing plan](#client)
+- [Known risks and test subjects](#client)
+- [Publishing plan and prioritizing](#client)
+- [Prioritizing](#client)
+- [Standards and sources](#client)
+- [Sources](#client)
 
 ## Introduction
 
@@ -35,7 +70,7 @@ Table of contents?
   * This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
   * Relevant information to the reader?
 
-### Short product/service description/customer profile
+### Short product description and customer profile
 
   * Service: An online quiz game for nursing students. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
   * Client story
@@ -70,7 +105,7 @@ For more:
 * [Gannt Chart] (https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
 * [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog )
 
-## Service's/Software's known stakeholders and customers
+## Known stakeholders and customers of the service
 
 Customers:
 
@@ -127,7 +162,7 @@ Software sub-sections/blocks
   * Business Logic
   * UI
 
-## The most vital Customer Journey Maps (Asiakaspolku) regarding the chosen client profiles
+## The most vital Customer Journey Maps regarding the chosen client profiles
 
   * Specifying the description to fit the project?
   // TO DO
@@ -269,7 +304,7 @@ Risk Factor (R) (V*P = R)
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-### Usability //TO DO
+### Usability
 
   * What has to be taken into consideration ?
   - // TO DO
@@ -281,13 +316,13 @@ Risk Factor (R) (V*P = R)
 # User interface prototype
 
 
-### Prototype introduction //TO DO
+### Prototype introduction
 
    * Links to the prototype environment
    * Necessary information for the inspection of the prototype
 
 
-## Service/software architecture //TO DO
+## Service architecture
 
   * This section can be merged with technical designing
   * In regards of requirement definitions, it could be useful to describe the general implementation and problems associated with it.
@@ -296,7 +331,7 @@ Risk Factor (R) (V*P = R)
 
    * [Example from real life](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
 
-### Class proposal //TO DO
+### Class proposal
 
   * Usually a part of a more detailed design
   * Can be referred with links...
@@ -304,19 +339,19 @@ Risk Factor (R) (V*P = R)
 
 ![](https://www.lucidchart.com/publicSegments/view/16b2b5a7-f349-48bf-8efb-594521131e09/image.png)
 
-### Class Diagram //TO DO
+### Class Diagram
 
   * Only a rough description necessary?
 
 ![](https://www.lucidchart.com/publicSegments/view/c680dd6c-6e68-43b7-bf6c-421bbe21a17c/image.png)
 
-### Sequence Diagram //TO DO
+### Sequence Diagram
 
   * Sequence diagram is a convenient tool to present other things
 
 ![](https://en.wikipedia.org/wiki/File:CheckEmail.svg)
 
-### Deployment diagram //TO DO
+### Deployment diagram
 
   * In requirement defining this might be the most useful UML-depictions?
   * How the software/service will roughly work along with an older solution...
@@ -325,7 +360,7 @@ Risk Factor (R) (V*P = R)
 ![](https://www.lucidchart.com/publicSegments/view/6f727a36-f880-4dca-b5ac-133f6f860697/image.png)
 
 
-## Risk-based pre-testing plan //TO DO
+## Risk-based pre-testing plan
 
 ### Known risks and test subjects
 
@@ -350,7 +385,7 @@ Functionality and implementation order
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Standards and sources //TO DO
+## Standards and sources
 
   * ISTQB
   * IPMA

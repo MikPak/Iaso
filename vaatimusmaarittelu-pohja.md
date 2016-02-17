@@ -30,7 +30,6 @@ Table of contents?
   * This document is for an online quiz game for nursing students
   * This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
   * Relevant information to the reader?
-  - //DO THIS ONE LAST
 
 ### Short product/service description/customer profile
 
@@ -44,7 +43,6 @@ Table of contents?
 
 ### Schedule
   (Recommended to be a part of the project plan)
-  //Gant versio mielummin?
 
 | Waypoint | Begins | Ends | Sprint | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -70,8 +68,11 @@ For more:
 
 ## Service's/Software's known stakeholders and customers
 
-* Customers: Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
-* Stakeholders: 
+Customers:
+
+* Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
+Stakeholders:
+
 * NarsuMan” Rintamäki, Marko.rintamaki@jamk.fi
 * Matti Mieskolainen matti.mieskolainen@jamk.fi
 * Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi
@@ -144,7 +145,6 @@ Software sub-sections/blocks
 
   * The most important features: Database, Game (code and logic)
   * The essential features: Database and the game
-  * [Check MVP - Minimum Viable Product Features](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
 ### Feature 1
 
@@ -222,7 +222,6 @@ Risk Factor (R) (V*P = R)
 | R(13-19) | Has to be monitored, the situation has to be reported to the stakeholders, actions to minimize the risk should be taken | | 
 | R(20-25) | Actions to dimish the risk should be taken immediately | | 
 
-//TO DO
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -238,15 +237,17 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| Service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P1 |
+|YVA0001| The service has to use a drug database | Technical | - | P1 |
+|YVA0002| The Service has to be compatible with both mobile and desktop platforms | Technical | - | P1 |
+|YVA0003| The Service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P3 |
+
 
 ## Identified Functional Requirements //TO DO
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAT0001|  | Practical | "ASAP"-production team | P1 |
-|VAT0002| The user can change password when required | Practical |  "ASAP"-production team | P5 |
-|VAT0003| After the password change, the user doesn't need to re-login | Practical |  "ASAP"-production team | P3 |
+|VAT0001| The user can change password when required | Practical |  "ASAP"-production team | P5 |
+|VAT0002| After the password change, the user doesn't need to re-login | Practical |  "ASAP"-production team | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
@@ -258,8 +259,7 @@ Risk Factor (R) (V*P = R)
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |VAL0201| The service has to be able to scale for 1000 users for a moment | Scalability | "ASAP"-production team | P1 |
-|VAL0202| Service availability has to be 99.1% | Stability |  "ASAP"-production team | P5 |
-|VAL0203| User info has to be protected | Information Security |  "ASAP"-production team | P3 |
+
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 

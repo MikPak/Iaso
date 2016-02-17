@@ -23,9 +23,9 @@ Table of contents?
 
 **Table of Contents**
 - [Introduction](#introduction)
-- [Short product/service description/customer profile](#short-productservice-description/customer-profile)
+- [Short product/service description/customer profile](#short-description)
 - [Client](#client)
-- [Service's/Software's known stakeholders and customers](#services/software's-known-stakeholders-and-customers)
+- [Service's/Software's known stakeholders and customers](#stakeholders-and-customers)
 
 
 ## Introduction

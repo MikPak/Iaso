@@ -217,49 +217,51 @@ Risk Factor (R) (V*P = R)
 
 | Risk Factor | Description | Add |
 |:----:|:----:|:----:|
-| R(0-6) | Small or unlikely risks | | 
-| R(7-12) | Should be taken into consideration | | 
-| R(13-19) | Has to be monitored, the situation has to be reported to the stakeholders, actions to minimize the risk should be taken | | 
-| R(20-25) | Actions to dimish the risk should be taken immediately | | 
+| R(0-6) | Small or unlikely risks | - | 
+| R(7-12) | Should be taken into consideration | - | 
+| R(13-19) | Has to be monitored, the situation has to be reported to the stakeholders, actions to minimize the risk should be taken | - | 
+| R(20-25) | Actions to dimish the risk should be taken immediately | - | 
 
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | P1 |
-|RISK002| The usability of the service getting weaker during heavy load | Practical |  | P5 |
+|RISK002| The usability of the service getting weaker during heavy load | Practical | - | P5 |
 |RISK003| The effect of a weak internet connection to the service | Practical | - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-## Functional Requirements //TO DO
+## Functional Requirements
 
   * In this section you can raise notable requirements that are good to keep in mind!
 
 | Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |YVA0001| The service has to use a drug database | Technical | - | P1 |
-|YVA0002| The Service has to be compatible with both mobile and desktop platforms | Technical | - | P1 |
-|YVA0003| The Service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P3 |
+|YVA0002| The service has to be compatible with both mobile and desktop platforms | Technical | - | P1 |
+|YVA0003| The service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P3 |
+|YVA0004| The game should be challenging for medical students of all levels | Technical | - | P3 |
+|YVA0005| Database should include at least the most common drugs | Technical | - | P1 |
 
 
-## Identified Functional Requirements //TO DO
+## Identified Functional Requirements
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAT0001| The user can change password when required | Practical |  "ASAP"-production team | P5 |
-|VAT0002| After the password change, the user doesn't need to re-login | Practical |  "ASAP"-production team | P3 |
+|VAT0001| - | Practical |  - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
 
-## Identified Non-Functional Requirements //TO DO
+## Identified Non-Functional Requirements
 
   * [Examples of information security requirements](https://confluence.csc.fi/display/oppija/10.+Tietoturvavaatimukset)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAL0201| The service has to be able to scale for 1000 users for a moment | Scalability | "ASAP"-production team | P1 |
-
+|VAL001| The service should improve users on following skills: mathematics (conversions), logical thinking, ability to read pharmaceutical information | Practical |  - | P1 |
+|VAL002| The service should be in English | Practical | - | P3 |
+|VAL003| The game should be challenging for medical students of all levels | Practical | - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
@@ -327,6 +329,8 @@ Risk Factor (R) (V*P = R)
   * Requirement -> The need to test
 
 ##  Publishing plan and prioritizing
+
+//Put GANTT-chart here?
 
 Publishing order isn't always linear. [Ks. Kriittinen polku](https://fi.wikipedia.org/wiki/Kriittinen_polku)
 Althought sometimes it might feel like it:  [Release Plan](https://wiki.documentfoundation.org/ReleasePlan)

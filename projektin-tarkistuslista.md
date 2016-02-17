@@ -93,11 +93,11 @@ Can be included to project plan...
 
 | Item | OK/NOK | Needs fixing | In charge ? |
 |:----:|:----:|:----:|:----:| 
-| Risk management plan available ? | :-1: | - | - |
-| Identified risks | :-1: | - | - |
-| Contacts to customer ? | :-1: | - | - |
-| Priorisation ? | :-1: | - | - |
-| If risk occurs, who will be in charge; who does what and when ? | :-1: | - | - |
+| Risk management plan available ? | :thumbsup: | - | - |
+| Identified risks | :thumbsup: | - | - |
+| Contacts to customer ? | :thumbsup: | - | - |
+| Priorisation ? | :thumbsup: | - | - |
+| If risk occurs, who will be in charge; who does what and when ? | :thumbsup: | - | - |
 
 
 ## Technical planning documentation

@@ -66,7 +66,7 @@ Table of contents?
 
 For more:
 * [Gannt Chart] (https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
-* [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog ) and Gantter: https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
+* [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog )
 
 ## Service's/Software's known stakeholders and customers
 

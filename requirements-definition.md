@@ -174,7 +174,7 @@ Software sub-sections/blocks
 Quiz-game (code and logic)
   * Description: A quiz game for nursing students in order to memorize drugs and medical knowledge
   * Requirements of the feature: The game requires the user to know the following about drugs: side effects, product names, intended use, administration, and conversion calculations
-  * UI-View: //Link to mockup?
+  * UI-View: [Mockup Model] (https://www.fluidui.com/editor/live/preview/p_fIQE7dpBAkkh3TOQBeByyqNViIChAl0E.1455521312492)
   * To be noted during testing: The game should be usable for medical students of all levels
 
 ### Feature 2
@@ -353,7 +353,7 @@ Risk Factor (R) (V*P = R)
 
 ##  Publishing plan and prioritizing
 
-//Put GANTT-chart here?
+[Gannt Chart](https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
 
 Publishing order isn't always linear. [Ks. Kriittinen polku](https://fi.wikipedia.org/wiki/Kriittinen_polku)
 Althought sometimes it might feel like it:  [Release Plan](https://wiki.documentfoundation.org/ReleasePlan)
@@ -371,6 +371,7 @@ Functionality and implementation order
 
 ## Standards and sources
 
+-
 
 # Sources
 

@@ -8,7 +8,6 @@
 | RISK06 | Project group can't share work tasks. | Project is delayed alot. | Medium | V2 | Be flexible and use teamwork |
 | RISK07 | Customer don't have time to meet | Problems to understand client | Medium | V2 | Be active to get meeting |
 | RISK08 | Customer disappears | Funding ends | Low | V1 | Actively contact the customer |
-| RISKXX | | | | | | |
 
 | SEVERITY | DESCRIPTION |
 |:----:|:----:|
@@ -16,6 +15,3 @@
 | V2 | Project getting delayed. |
 | V3 | Little bit effect, able to handle |
 
-## Examples : 
-
-  * [Esimerkki 1](https://confluence.csc.fi/download/attachments/41157778/2014_04_08+Riskienhallintasuunnitelma+Oppijan+ehops.xls?version=1&modificationDate=1397471961223)

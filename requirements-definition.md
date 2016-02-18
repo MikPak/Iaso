@@ -211,6 +211,19 @@ Risk Factor (R) (V*P = R)
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
+## Technologies used on the project
+
+  * Trello
+  * Ganntter
+  * Github
+  * Slack
+  * Whatsapp
+  * Circle CI
+  * Heroku
+  * Doorbell
+  * Commonkey
+  * Zapier
+
 # User interface prototype
 
 

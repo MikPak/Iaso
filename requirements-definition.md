@@ -272,7 +272,7 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAT0001| - | Practical |  - | P3 |
+|VAT0001| - | Practical | - | - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
@@ -283,7 +283,7 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAL001| The service should improve users on following skills: mathematics (conversions), logical thinking, ability to read pharmaceutical information | Practical |  - | - | P1 |
+|VAL001| The service should improve users on following skills: mathematics (conversions), logical thinking, ability to read pharmaceutical information | Practical | - | - | P1 |
 |VAL002| The service should be in English | Practical | - | - | P3 |
 |VAL003| The game should be challenging for medical students of all levels | Practical | - | - | P3 |
 

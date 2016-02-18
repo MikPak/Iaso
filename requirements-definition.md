@@ -221,25 +221,25 @@ Database
 | RISK08 | Customer disappears | The funding ends | V5 | P1 | R5 | - | Actively try to have contact with the customer |
 
 
-| Severity | Description | Add |
+| Severity | Description |
 |:----:|:----:|:----:|
-| V1 | Minor, if the problem becomes recurring it affect the project | |
-| V2 | Can be perceived easily, affects the project but shouldn't hinder it | |
-| V3 | Significant, affects significantly on the project success and/or outcome, but the effect can be limited by the group | | 
-| V4 | Serious, affects significantly on the project success and/or outcome | |
-| V5 | Extremely severe, destructive effect on the project | |
+| V1 | Minor, if the problem becomes recurring it affect the project |
+| V2 | Can be perceived easily, affects the project but shouldn't hinder it |
+| V3 | Significant, affects significantly on the project success and/or outcome, but the effect can be limited by the group |
+| V4 | Serious, affects significantly on the project success and/or outcome |
+| V5 | Extremely severe, destructive effect on the project |
 
-| Probability | Description | Add |
+| Probability | Description |
 |:----:|:----:|:----:|
-| P1 | Can be identified easily, but has a very slight probability | | 
-| P2 | Clearly identified, but the probability is small | | 
-| P3 | Medium, the probability has to be taken into consideration | | 
-| P4 | Very likely probablity, has to be monitored regularly | | 
-| P5 | Certain to happen | | 
+| P1 | Can be identified easily, but has a very slight probability |
+| P2 | Clearly identified, but the probability is small |
+| P3 | Medium, the probability has to be taken into consideration |
+| P4 | Very likely probablity, has to be monitored regularly | 
+| P5 | Certain to happen | 
 
 Risk Factor (R) (V*P = R)
 
-| Risk Factor | Description | Add |
+| Risk Factor | Description |
 |:----:|:----:|:----:|
 | R(0-6) | Small or unlikely risks | - | 
 | R(7-12) | Should be taken into consideration | - | 
@@ -249,9 +249,9 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | P1 |
-|RISK002| The usability of the service getting weaker during heavy load | Practical | - | P5 |
-|RISK003| The effect of a weak internet connection to the service | Practical | - | P3 |
+|RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | - | P1 |
+|RISK002| The usability of the service getting weaker during heavy load | Practical | - | - | P5 |
+|RISK003| The effect of a weak internet connection to the service | Practical | - | - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
@@ -261,11 +261,11 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| The service has to use a drug database | Technical | - | P1 |
-|YVA0002| The service has to be compatible with both mobile and desktop platforms | Technical | - | P1 |
-|YVA0003| The service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P2 |
-|YVA0004| The game should be challenging for medical students of all levels | Technical | - | P3 |
-|YVA0005| Database should include at least the most common drugs | Technical | - | P1 |
+|YVA0001| The service has to use a drug database | Technical | - | - | P1 |
+|YVA0002| The service has to be compatible with both mobile and desktop platforms | Technical | - | - | P1 |
+|YVA0003| The service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | - | P2 |
+|YVA0004| The game should be challenging for medical students of all levels | Technical | - | - | P3 |
+|YVA0005| Database should include at least the most common drugs | Technical | - | - | P1 |
 
 
 ## Identified Functional Requirements
@@ -283,9 +283,9 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|VAL001| The service should improve users on following skills: mathematics (conversions), logical thinking, ability to read pharmaceutical information | Practical |  - | P1 |
-|VAL002| The service should be in English | Practical | - | P3 |
-|VAL003| The game should be challenging for medical students of all levels | Practical | - | P3 |
+|VAL001| The service should improve users on following skills: mathematics (conversions), logical thinking, ability to read pharmaceutical information | Practical |  - | - | P1 |
+|VAL002| The service should be in English | Practical | - | - | P3 |
+|VAL003| The game should be challenging for medical students of all levels | Practical | - | - | P3 |
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 

@@ -5,7 +5,7 @@ This document is a "living"-document, which is updates regularly. It is a rough 
 Regards: NarsuMan
 
 
-## XXXXXX-service/software requirement definition
+## Service/software requirement definition
 
 Document version number 0.5
 

@@ -19,8 +19,6 @@ This document is owned by JAMK University of Applied Sciences.
 
 ## Contents
 
-Table of contents?
-
 **Table of Contents**
 - [Introduction](#introduction)
 - [Short product/service description/customer profile](#short-product-description-and-customer-profile)
@@ -68,7 +66,6 @@ Table of contents?
   * This document is for specifying the requirements for this project
   * This document is for an online quiz game for nursing students
   * This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
-  * Relevant information to the reader?
 
 ### Short product description and customer profile
 
@@ -81,7 +78,6 @@ Table of contents?
   * Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
 
 ### Schedule
-  (Recommended to be a part of the project plan)
 
 | Waypoint | Begins | Ends | Sprint | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -106,15 +102,6 @@ For more:
 * [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog )
 
 ## Known stakeholders and customers of the service
-
-Customers:
-
-* Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
-Stakeholders:
-
-* NarsuMan” Rintamäki, Marko.rintamaki@jamk.fi
-* Matti Mieskolainen matti.mieskolainen@jamk.fi
-* Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi
 
 ### Stakeholders
 
@@ -276,7 +263,7 @@ Risk Factor (R) (V*P = R)
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |YVA0001| The service has to use a drug database | Technical | - | P1 |
 |YVA0002| The service has to be compatible with both mobile and desktop platforms | Technical | - | P1 |
-|YVA0003| The service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P3 |
+|YVA0003| The service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | P2 |
 |YVA0004| The game should be challenging for medical students of all levels | Technical | - | P3 |
 |YVA0005| Database should include at least the most common drugs | Technical | - | P1 |
 

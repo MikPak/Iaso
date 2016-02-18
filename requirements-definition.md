@@ -74,7 +74,6 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
   * Client 1, First year Nursing student
   * Client 2, 2-3 year Nursing student
   * Client 3, Nursing student that has almost graduated, or has already graduated
-  * [Link to customer profiles ](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/asiakasprofiilien_esimerkit.md)
 
 ## Stakeholder map
 

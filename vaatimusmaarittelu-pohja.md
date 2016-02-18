@@ -38,12 +38,12 @@ Table of contents?
 - [The most important features](#the-most-important-features)
 - [Feature 1](#feature-1)
 - [Feature 2](#feature-2)
-- [Use-Cases](#use--cases)
-- [The most important use-cases as picture](#the-most-important-use--cases-as-picture)
-- [Use-Case 1](#use--case-1)
-- [Use-Case 2](#use--case-2)
-- [Use-Case 3](#use--case-3)
-- [Use-Case 4](#use--case-4)
+- [Use-Cases](#use-cases)
+- [The most important use-cases as picture](#the-most-important-use-cases-as-picture)
+- [Use-Case 1](#use-case-1)
+- [Use-Case 2](#use-case-2)
+- [Use-Case 3](#use-case-3)
+- [Use-Case 4](#use-case-4)
 - [Risks](#risks)
 - [Functional Requirements](#functional-requirements)
 - [Identified Functional Requirements](#identified-functional-requirements)
@@ -387,13 +387,7 @@ Functionality and implementation order
 
 ## Standards and sources
 
-  * ISTQB
-  * IPMA
-  * etc..
-
-
 
 # Sources
 
-  * https://fi.wikipedia.org/wiki/Ohjelmiston_vaatimusm%C3%A4%C3%A4rittely
 

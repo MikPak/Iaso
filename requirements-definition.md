@@ -353,10 +353,7 @@ Risk Factor (R) (V*P = R)
 
 ##  Publishing plan and prioritizing
 
-[Gannt Chart](https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
-
-Publishing order isn't always linear. [Ks. Kriittinen polku](https://fi.wikipedia.org/wiki/Kriittinen_polku)
-Althought sometimes it might feel like it:  [Release Plan](https://wiki.documentfoundation.org/ReleasePlan)
+* [Gannt Chart](https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
 
 Functionality and implementation order
 

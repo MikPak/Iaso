@@ -218,7 +218,7 @@ Risk Factor (R) (V*P = R)
 ### Prototype introduction
 
    * [FluidUI mockup](https://www.fluidui.com/editor/live/preview/p_fIQE7dpBAkkh3TOQBeByyqNViIChAl0E.1455521312492)
-   * Necessary information for the inspection of the prototype
+   * Mockup made with fluidUI. Presents basic idea of the game visually.
 
 ##  Publishing plan and prioritizing
 

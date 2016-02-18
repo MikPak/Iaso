@@ -17,50 +17,6 @@ Public
 
 This document is owned by JAMK University of Applied Sciences.
 
-## Contents
-
-**Table of Contents**
-- [Introduction](#introduction)
-- [Short product/service description/customer profile](#short-product-description-and-customer-profile)
-- [Client](#client)
-- [Schedule](#schedule)
-- [Known stakeholders and customers of the service](#known-stakeholders-and-customers-of-the-service)
-- [Customer Profiles](#customer-profiles)
-- [Stakeholder map](#stakeholder-map)
-- [General Customer Journey](#general-customer-journey)
-- [Service Domain areas](#service-domain-areas)
-- [The most vital Customer Journey Maps regarding the chosen client profiles](#the-most-vital-customer-journey-maps-regarding-the-chosen-client-profiles)
-- [Customer Journey Map usage clientprofile_1 point of view](#customer-journey-map-usage-clientprofile_1-point-of-view)
-- [Customer Journey Map usage clientprofile_2 point of view](#customer-journey-map-usage-clientprofile_2-point-of-view)
-- [Customer Journey Map usage clientprofile_3 point of view](#customer-journey-map-usage-clientprofile_3-point-of-view)
-- [The most important features](#the-most-important-features)
-- [Feature 1](#feature-1)
-- [Feature 2](#feature-2)
-- [Use-Cases](#use-cases)
-- [The most important use-cases as picture](#the-most-important-use-cases-as-picture)
-- [Use-Case 1](#use-case-1)
-- [Use-Case 2](#use-case-2)
-- [Use-Case 3](#use-case-3)
-- [Use-Case 4](#use-case-4)
-- [Risks](#risks)
-- [Functional Requirements](#functional-requirements)
-- [Identified Functional Requirements](#identified-functional-requirements)
-- [Identified Non-Functional Requirements](#identified-non-functional-requirements)
-- [Usability](#usability)
-- [User interface prototype](#user-interface-prototype)
-- [Prototype introduction](#prototype-introduction)
-- [Service architecture](#service-architecture)
-- [Class proposal](#class-proposal)
-- [Class Diagram](#class-diagram)
-- [Sequence Diagram](#sequence-diagram)
-- [Deployment diagram](#deployment-diagram)
-- [Risk-based pre-testing plan](#risk-based-pre-testing-plan)
-- [Known risks and test subjects](#known-risks-and-test-subjects)
-- [Publishing plan and prioritizing](#publishing-plan-and-prioritizing)
-- [Prioritizing](#prioritizing)
-- [Standards and sources](#standards-and-sources)
-- [Sources](#sources)
-
 ## Introduction
 
   * This document is for specifying the requirements for this project
@@ -128,10 +84,6 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ![](https://camo.githubusercontent.com/1429ec848bc406a1bc7f38874188e4af03d3ee46/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6c6f7076357a6a6a337076676261392f757365725f6a6f75726e6579732d30322e706e673f646c3d31)
 
-Covering the customer path, in which named stakeholder representatives are used
-
-  *  [What is a customer path?](https://www.google.fi/search?q=palvelupolku&espv=2&biw=1626&bih=843&site=webhp&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjU3Kn22pnKAhWDWywKHWrDB-wQsAQIHA)
-
 
 ## Service Domain areas
 
@@ -169,25 +121,14 @@ Database
 
 ## Use-Cases
 
-### The most important use-cases as picture
+User story | Actor | 
+---|---|---
+First year nursing student familiarize oneself with most commonly used pharmaceuticals and their effective drugs. Student will use application to revise studied material before lessons and exam. | First year student
+2-3 year nursing student revises oneself with commonly used pharmaceuticals, their effective drugs and reasons for the need to use them. Student will use application to revises studied material before lessons, exam and internship. |2-3 year student
+Advanced special studies student and graduated nursing student revises oneself with commonly used pharmaceuticals, their effective drugs and reasons for the need to use them. Student revises conflicts between effective drugs, equivalence of the pharmaceutics and how much can be prescribed. |Advanced special studies and graduated student
 
-![](https://www.lucidchart.com/publicSegments/view/6994e113-aa9d-4eeb-ab5d-edc605b604ef/image.png)
 
-### Use-case 1
 
-   * [Registering](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
-
-### Use-case 2
-
-   * [Password change](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
-
-### Use-case 3
-
-   * [Example 3](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
-
-### Use-case 4
-
-   * [Example 4](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/kayttotapauskuvauksen-pohja.md)
 
 ## Risks
 

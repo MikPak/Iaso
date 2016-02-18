@@ -71,7 +71,7 @@ This document is owned by JAMK University of Applied Sciences.
 
   * Service: An online quiz game for nursing students. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
   * Client story
-  - //TO DO
+  Nursing students are required to complete multiple courses which consist of pharmaceutical studies. They face the problem of data overflow when introduced to thousands and thousands remedies and effective drug components. Not all students learn by sitting on classes and reading study notes so we were given the assignment of making studying a game like experience. Remedies are limited to most commonly used effective drug components and grouped based on their use.
 
 ### Client
 
@@ -146,23 +146,6 @@ Software sub-sections/blocks
   * PHP/HTML
   * Business Logic
   * UI
-
-## The most vital Customer Journey Maps regarding the chosen client profiles
-
-  * Specifying the description to fit the project?
-  // TO DO
-
-### Customer Journey Map usage clientprofile_1 point of view
-
-// TO DO
-
-### Customer Journey Map usage clientprofile_2 point of view
-
-// TO DO
-
-### Customer Journey Map usage clientprofile_3 point of view
-
-// TO DO
 
 ## The most important features
 
@@ -288,68 +271,13 @@ Risk Factor (R) (V*P = R)
 
   * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
 
-### Usability
-
-  * What has to be taken into consideration ?
-  - // TO DO
-  * Wishes of the client ?
-  - // TO DO
-  * Technological divisions/things that affect availability?
-  - // TO DO
-
 # User interface prototype
 
 
 ### Prototype introduction
 
-   * Links to the prototype environment
+   * [FluidUI mockup](https://www.fluidui.com/editor/live/preview/p_fIQE7dpBAkkh3TOQBeByyqNViIChAl0E.1455521312492)
    * Necessary information for the inspection of the prototype
-
-
-## Service architecture
-
-  * This section can be merged with technical designing
-  * In regards of requirement definitions, it could be useful to describe the general implementation and problems associated with it.
-
-![](https://camo.githubusercontent.com/5c169deb4debb278bb6219208f577843075ddab3/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6179707170797376726831316133312f636f6e747269626f6172642d6172636869746563747572652e706e673f646c3d31)
-
-   * [Example from real life](https://confluence.csc.fi/display/OPHPALV/Koodistopalvelun+tekninen+dokumentaatio)
-
-### Class proposal
-
-  * Usually a part of a more detailed design
-  * Can be referred with links...
-  * Identified class proposals
-
-![](https://www.lucidchart.com/publicSegments/view/16b2b5a7-f349-48bf-8efb-594521131e09/image.png)
-
-### Class Diagram
-
-  * Only a rough description necessary?
-
-![](https://www.lucidchart.com/publicSegments/view/c680dd6c-6e68-43b7-bf6c-421bbe21a17c/image.png)
-
-### Sequence Diagram
-
-  * Sequence diagram is a convenient tool to present other things
-
-![](https://en.wikipedia.org/wiki/File:CheckEmail.svg)
-
-### Deployment diagram
-
-  * In requirement defining this might be the most useful UML-depictions?
-  * How the software/service will roughly work along with an older solution...
-  * How the existing system will roughly work
-
-![](https://www.lucidchart.com/publicSegments/view/6f727a36-f880-4dca-b5ac-133f6f860697/image.png)
-
-
-## Risk-based pre-testing plan
-
-### Known risks and test subjects
-
-  * Risk -> The need to test
-  * Requirement -> The need to test
 
 ##  Publishing plan and prioritizing
 
@@ -360,17 +288,4 @@ Functionality and implementation order
   * Feature 2 (Database) - March 2016
   * Feature 1 (Game) - April 2016
 
-### Prioritizing
-
-
-  * How to read the tables: P1 = Very important, P3 = Relevant, P5 = Trivial
-
-
-## Standards and sources
-
--
-
-# Sources
-
--
 

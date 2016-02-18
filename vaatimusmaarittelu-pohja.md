@@ -32,9 +32,9 @@ Table of contents?
 - [General Customer Journey](#general-customer-journey)
 - [Service Domain areas](#service-domain-areas)
 - [The most vital Customer Journey Maps regarding the chosen client profiles](#the-most-vital-customer-journey-maps-regarding-the-chosen-client-profiles)
-- [Customer Journey Map usage (profile1) point of view](#customer-journey-map-usage-(profile1)-point-of-view)
-- [Customer Journey Map usage (profile2) point of view](#customer-journey-map-usage-(profile2)-point-of-view)
-- [Customer Journey Map usage (profile3) point of view](#customer-journey-map-usage-(profile3)-point-of-view)
+- [Customer Journey Map usage clientprofile_1 point of view](#customer-journey-map-usage-clientprofile_1-point-of-view)
+- [Customer Journey Map usage clientprofile_2 point of view](#customer-journey-map-usage-clientprofile_2-point-of-view)
+- [Customer Journey Map usage clientprofile_3 point of view](#customer-journey-map-usage-clientprofile_3-point-of-view)
 - [The most important features](#the-most-important-features)
 - [Feature 1](#feature-1)
 - [Feature 2](#feature-2)
@@ -165,15 +165,15 @@ Software sub-sections/blocks
   * Specifying the description to fit the project?
   // TO DO
 
-### Customer Journey Map usage [clientprofile_1] point of view
+### Customer Journey Map usage clientprofile_1 point of view
 
 // TO DO
 
-### Customer Journey Map usage [clientprofile_2] point of view
+### Customer Journey Map usage clientprofile_2 point of view
 
 // TO DO
 
-### Customer Journey Map usage [clientprofile_3] point of view
+### Customer Journey Map usage clientprofile_3 point of view
 
 // TO DO
 

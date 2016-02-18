@@ -164,7 +164,6 @@ Software sub-sections/blocks
 
 // TO DO
 
-
 ## The most important features
 
   * The most important features: Database, Game (code and logic)
@@ -375,4 +374,5 @@ Functionality and implementation order
 
 # Sources
 
+-
 

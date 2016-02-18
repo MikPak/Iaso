@@ -7,7 +7,7 @@ Regards: NarsuMan
 
 ## XXXXXX-service/software requirement definition
 
-Document version number 0.4
+Document version number 0.5
 
 ### Material classification
 
@@ -125,8 +125,6 @@ Supervisors :
 * Matti Mieskolainen matti.mieskolainen@jamk.fi
 
 Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
-
-Identified customer profiles
 
 ## Customer Profiles
 

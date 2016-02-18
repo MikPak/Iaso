@@ -3,16 +3,26 @@
 This communication plans purpose is to describe communication methods and channels used during the project made by team IASO. To ensure passage of the information and success of the project targets clear and uniform communication is necessary
 
 ##2	The parties of the project
-Name	Description	Contact info
-Mäkinen Lauri	Team member, manager	H9142@student.jamk.fi
-Nissinen Olli	Team member	H8593@student.jamk.fi
-Pakkanen Mikko	Team member, databases	H8699@student.jamk.fi
-Skott Matias	Team member	H3128@student.jamk.fi
-Gusgård Emil	Team member, secretary	H9594@student.jamk.fi
-Rintamäki Marko	Supervisor	marko.rintamaki@jamk.fi
-Mieskolainen Matti	Supervisor	matti.mieskolainen@jamk.fi
-Nelimarkka Paavo	Supervisor	paavo.nelimarkka@jamk.fi
-Kuokkanen Niilo	Client	niilo.kuokkanen@jamk.fi
+Name;	Description;	Contact info;
+
+Mäkinen Lauri;	Team member, manager;	H9142@student.jamk.fi
+
+Nissinen Olli;	Team member;	H8593@student.jamk.fi
+
+Pakkanen Mikko;	Team member, databases;	H8699@student.jamk.fi
+
+Skott Matias;	Team member;	H3128@student.jamk.fi
+
+Gusgård Emil;	Team member, secretary;	H9594@student.jamk.fi
+
+Rintamäki Marko;	Supervisor;	marko.rintamaki@jamk.fi
+
+Mieskolainen Matti;	Supervisor;	matti.mieskolainen@jamk.fi
+
+Nelimarkka Paavo;	Supervisor;	paavo.nelimarkka@jamk.fi
+
+Kuokkanen Niilo;	Client;	niilo.kuokkanen@jamk.fi
+
 
 
 ##3	General channels for communication

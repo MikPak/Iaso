@@ -135,7 +135,7 @@ Advanced special studies student and graduated nursing student revises oneself w
 | RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISK FACTOR | WHO'S RESPONSIBLE? | SOLUTION |
 |:----|:----|:----|:----|:----|:----|:----|:----|
 | RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | P3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
-| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | P4 | R12| | - | Find out what has been understood correctly and start building on that |
+| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | P4 | R12| - | - | Find out what has been understood correctly and start building on that |
 | RISK03 | Timeschedule plannings are insufficient | Product is not finished on given delivery date | V3 | P3 | R9 | Team Member | Spread the work tasks evenly |
 | RISK04 | A group member disappears | The project is delayed | V4 | P1 | R4 | All | Keep the rest of the group functional |
 | RISK05 | A group member gets ill | The project is delayed | V3 | P3 | R9 | All | Try to patch the ill persons contribution |

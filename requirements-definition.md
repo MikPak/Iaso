@@ -249,7 +249,7 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|RISK001| Sudden increase of the number of users, e.g during a exceptional situation | - | - | P1 |
+|RISK001| Sudden increase of the number of users, e.g during a exceptional situation | Practical | - | - | P1 |
 |RISK002| The usability of the service getting weaker during heavy load | Practical | - | - | P5 |
 |RISK003| The effect of a weak internet connection to the service | Practical | - | - | P3 |
 

@@ -68,9 +68,7 @@ Supervisors :
 * Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi 
 * Matti Mieskolainen matti.mieskolainen@jamk.fi
 
-Client(s) :
-
-* Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
+Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ## Customer Profiles
 
@@ -80,7 +78,7 @@ Client(s) :
 
 ## Stakeholder map
 
-//
+![](http://student.labranet.jamk.fi/~H9594/Jarjestelma/Capture.PNG)
 
 ## General Customer Journey
 
@@ -127,9 +125,6 @@ User story | Actor |
 First year nursing student familiarize oneself with most commonly used pharmaceuticals and their effective drugs. Student will use application to revise studied material before lessons and exam. | First year student
 2-3 year nursing student revises oneself with commonly used pharmaceuticals, their effective drugs and reasons for the need to use them. Student will use application to revises studied material before lessons, exam and internship. |2-3 year student
 Advanced special studies student and graduated nursing student revises oneself with commonly used pharmaceuticals, their effective drugs and reasons for the need to use them. Student revises conflicts between effective drugs, equivalence of the pharmaceutics and how much can be prescribed. |Advanced special studies and graduated student
-
-
-
 
 ## Risks
 

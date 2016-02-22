@@ -7,7 +7,7 @@ Regards: NarsuMan
 
 ## Service/software requirement definition
 
-Document version number 0.9
+Document version number 1.0
 
 ### Material classification
 

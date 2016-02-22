@@ -68,7 +68,9 @@ Supervisors :
 * Paavo Nelimarkka, Paavo.nelimarkka@jamk.fi 
 * Matti Mieskolainen matti.mieskolainen@jamk.fi
 
-Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
+Client(s) :
+
+* Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ## Customer Profiles
 

@@ -1,8 +1,6 @@
 # About the document
 
-This document is a "living"-document, which is updates regularly. It is a rough requirement definition document's structure that can be used as a layout for requirement defining for various projects. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly.
-
-Regards: NarsuMan
+This document is a "living"-document, which is updates regularly. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly.
 
 
 ## Service/software requirement definition

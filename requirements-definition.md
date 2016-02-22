@@ -31,7 +31,7 @@ This document is owned by JAMK University of Applied Sciences.
 
 ### Client
 
-  * Nursing department of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
+  * School of Health and Social Studies of JAMK University of Applied Sciences (Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi)
 
 ### Schedule
 

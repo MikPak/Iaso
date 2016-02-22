@@ -56,7 +56,7 @@ This document is owned by JAMK University of Applied Sciences.
 
 For more:
 * [Gannt Chart] (https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
-* [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog )
+* [Sprint backlog] (https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog)
 
 ## Known stakeholders and customers of the service
 
@@ -82,7 +82,7 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ## General Customer Journey
 
-![](http://student.labranet.jamk.fi/~H9142/projectdisp/Userstory2.png)
+![](http://student.labranet.jamk.fi/~H9142/projectdsip/Userstory2.PNG)
 
 ## Service Domain areas
 
@@ -237,4 +237,10 @@ Functionality and implementation order
   * Feature 2 (Database) - March 2016
   * Feature 1 (Game) - April 2016
 
+# Sources and additional information
 
+* [Requirement specification template](https://github.com/JAMK-IT/TT0S0100-software-desing-and-testing/blob/master/vaatimusmaarittelu-pohja.md)
+* [Project Plan](https://github.com/MikPak/Iaso/wiki/Project-plan)
+* [Gannt Chart](https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
+* [FluidUI mockup](https://www.fluidui.com/editor/live/preview/p_fIQE7dpBAkkh3TOQBeByyqNViIChAl0E.1455521312492)
+* [Sprint backlog](https://github.com/JAMK-IT/IIZP2010-system-project/wiki/sprint-backlog)

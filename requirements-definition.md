@@ -82,7 +82,7 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ## General Customer Journey
 
-//
+![](http://student.labranet.jamk.fi/~H9142/projectdsip/Userstory2.png)
 
 ## Service Domain areas
 

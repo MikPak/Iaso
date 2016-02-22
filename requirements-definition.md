@@ -5,7 +5,7 @@ This document is a "living"-document, which is updates regularly. The structure 
 
 ## Service/software requirement definition
 
-Document version number 1.0
+Document version number 1.1
 
 ### Material classification
 
@@ -115,6 +115,8 @@ Database
   * Description: A drug database for the game
   * Requirements of the feature: Most common drugs should be featured
   * To be noted during testing: That it works as intended
+  * ![](http://student.labranet.jamk.fi/~H9594/Jarjestelma/database.png)
+ 
 
 ## Use-Cases
 

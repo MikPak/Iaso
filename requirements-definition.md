@@ -77,11 +77,9 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ## Stakeholder map
 
-![](https://www.lucidchart.com/publicSegments/view/afbaa205-0924-40f8-a0a1-96e281aafcf5/image.png)
+
 
 ## General Customer Journey
-
-![](https://camo.githubusercontent.com/1429ec848bc406a1bc7f38874188e4af03d3ee46/68747470733a2f2f7777772e64726f70626f782e636f6d2f732f6c6f7076357a6a6a337076676261392f757365725f6a6f75726e6579732d30322e706e673f646c3d31)
 
 
 ## Service Domain areas
@@ -200,8 +198,6 @@ Risk Factor (R) (V*P = R)
 
 
 ## Identified Non-Functional Requirements
-
-  * [Examples of information security requirements](https://confluence.csc.fi/display/oppija/10.+Tietoturvavaatimukset)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|

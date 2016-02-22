@@ -130,13 +130,13 @@ Advanced special studies student and graduated nursing student revises oneself w
 | RISK ID |	DESCRIPTION | CONSEQUENCES | SE(V)ERITY | (P)ROBABILITY | (R)ISK FACTOR | WHO'S RESPONSIBLE? | SOLUTION |
 |:----|:----|:----|:----|:----|:----|:----|:----|
 | RISK01 | A member can't fulfill his duties on time | Sprint is delayed | V4 | P3 | R12 | Team Manager | Finish the previous tasks before the next sprint |
-| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | P4 | R12| - | - | Find out what has been understood correctly and start building on that |
+| RISK02 | Group doesn't understand what the client wants | Finished product doesn't match the client's expectations | V3 | P4 | R12| Project manager | Find out what has been understood correctly and start building on that |
 | RISK03 | Timeschedule plannings are insufficient | Product is not finished on given delivery date | V3 | P3 | R9 | Team Member | Spread the work tasks evenly |
 | RISK04 | A group member disappears | The project is delayed | V4 | P1 | R4 | All | Keep the rest of the group functional |
 | RISK05 | A group member gets ill | The project is delayed | V3 | P3 | R9 | All | Try to patch the ill persons contribution |
-| RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | P2 | R10 | - | 	Try to exploit the best aspects of the group members |
+| RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | P2 | R10 | Project manager | 	Try to exploit the best aspects of the group members |
 | RISK07 | Customer don't have time to meet | Problems to understand client | V4 | P2 | R8 | - | Try to get a meeting soon as possible |
-| RISK08 | Customer disappears | The funding ends | V5 | P1 | R5 | - | Actively try to have contact with the customer |
+| RISK08 | Customer disappears | The funding ends | V5 | P1 | R5 | Project manager | Actively try to have contact with the customer |
 
 
 | Severity | Description |
@@ -179,11 +179,11 @@ Risk Factor (R) (V*P = R)
 
 | Requirement ID | Description | Type | Division | Responsible | Priority |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|YVA0001| The service has to use a drug database | Technical | - | - | P1 |
-|YVA0002| The service has to be compatible with both mobile and desktop platforms | Technical | - | - | P1 |
+|YVA0001| The service has to use a drug database | Technical | - | DB manager | P1 |
+|YVA0002| The service has to be compatible with both mobile and desktop platforms | Technical | - | -| P1 |
 |YVA0003| The service has to compatible with as many devices mobile devices as possible (the popular ones at least) | Technical | - | - | P2 |
 |YVA0004| The game should be challenging for medical students of all levels | Technical | - | - | P3 |
-|YVA0005| Database should include at least the most common drugs | Technical | - | - | P1 |
+|YVA0005| Database should include at least the most common drugs | Technical | - | DB manager | P1 |
 
 
 ## Identified Functional Requirements

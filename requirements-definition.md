@@ -115,7 +115,7 @@ Database
   * Description: A drug database for the game
   * Requirements of the feature: Most common drugs should be featured
   * To be noted during testing: That it works as intended
- ![](http://student.labranet.jamk.fi/~H9594/Jarjestelma/database.png)
+ ![](http://student.labranet.jamk.fi/~H9142/projectdisp/dbplan.png)
 
 ## Use-Cases
 

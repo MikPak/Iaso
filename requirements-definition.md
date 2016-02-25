@@ -3,7 +3,7 @@
 This document is a "living"-document, which is updates regularly. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly.
 
 
-## Service/software requirement definition
+## Service/software requirement specification
 
 Document version number 1.2
 

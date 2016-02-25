@@ -5,7 +5,7 @@ This document is a "living"-document, which is updates regularly. The structure 
 
 ## Service/software requirement definition
 
-Document version number 1.1
+Document version number 1.2
 
 ### Material classification
 
@@ -18,14 +18,13 @@ This document is owned by JAMK University of Applied Sciences.
 ## Introduction
 
   * This document is for specifying the requirements for this project
-  * This document is for an online quiz game for nursing students
-  * This is a student project of second year Software Engineering students in JAMK University of Applied Sciences
+  * This document is for an online quiz game for nurses to prepare for IV-test
+  * This is a student project of second year software engineering students in JAMK University of Applied Sciences
 
 ### Short product description and customer profile
 
-  * Service: An online quiz game for nursing students. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
-  * Client story
-  Nursing students are required to complete multiple courses which consist of pharmaceutical studies. They face the problem of data overflow when introduced to thousands and thousands remedies and effective drug components. Not all students learn by sitting on classes and reading study notes so we were given the assignment of making studying a game like experience. Remedies are limited to most commonly used effective drug components and grouped based on their use.
+  * Service: An online quiz game for nurses preparing for an IV-test. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
+  * Client story: Nursing students are required to complete multiple courses which consist of pharmaceutical studies. They face the problem of data overflow when introduced to thousands and thousands remedies and effective drug components. Not all students learn by sitting on classes and reading study notes so we were given the assignment of making studying a game like experience. Remedies are limited to most commonly used effective drug components and grouped based on their use.
 
 ### Client
 
@@ -70,9 +69,7 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 
 ## Customer Profiles
 
-  * Client 1, First year Nursing student
-  * Client 2, 2-3 year Nursing student
-  * Client 3, Nursing student that has almost graduated, or has already graduated
+  * Client 1, Nurse
 
 ## Stakeholder map
 
@@ -121,9 +118,7 @@ Database
 
 User story | Actor | 
 ---|---|---
-First year nursing student familiarize oneself with most commonly used pharmaceuticals and their effective drugs. Student will use application to revise studied material before lessons and exam. | First year student
-2-3 year nursing student revises oneself with commonly used pharmaceuticals, their effective drugs and reasons for the need to use them. Student will use application to revises studied material before lessons, exam and internship. |2-3 year student
-Advanced special studies student and graduated nursing student revises oneself with commonly used pharmaceuticals, their effective drugs and reasons for the need to use them. Student revises conflicts between effective drugs, equivalence of the pharmaceutics and how much can be prescribed. |Advanced special studies and graduated student
+A nurse that is preparing for an IV-test.  | Nurse |
 
 ## Risks
 

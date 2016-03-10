@@ -1,0 +1,14 @@
+.button {
+    width: 170px;
+    height: auto;
+}
+
+#content {
+    height: 100%;
+}
+
+.content_holder {
+    text-align: center;
+    background-color: #15848f;
+    min-height: 100%;
+}

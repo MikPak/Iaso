@@ -20,11 +20,7 @@ use Cake\Network\Exception\NotFoundException;
 
 $this->layout = false;
 
-if (!Configure::read('debug')):
-    throw new NotFoundException('Please replace Pages/home.ctp with your own version.');
-endif;
-
-$cakeDescription = 'Iaso - Home';
+$cakeDescription = 'Iaso - Game';
 ?>
 <!DOCTYPE html>
 <html>
@@ -40,18 +36,18 @@ $cakeDescription = 'Iaso - Home';
     <?= $this->Html->css('iaso.css') ?>
 </head>
 <body class="home">
-    <header>
-        <div class="header-image">
-            <?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
-            <h1>Iaso</h1>
-        </div>
-    </header>
-    <div id="content">
-        <div class="content_holder">
-            <?= $this->Html->link('Start', '/game/', array('class' => 'button')) ?>
-        </div>
+<header>
+    <div class="header-image">
+        <?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
+        <h1>Pelinäkymä</h1>
     </div>
-    <footer>
-    </footer>
+</header>
+<div id="content">
+    <div class="content_holder">
+
+    </div>
+</div>
+<footer>
+</footer>
 </body>
 </html>

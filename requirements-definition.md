@@ -70,6 +70,8 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 ## Customer Profiles
 
   * Client 1, Nurse
+  * Client 2, Student
+  * Client 3, Teacher
 
 ## Stakeholder map
 
@@ -119,6 +121,8 @@ Database
 User story | Actor | 
 ---|---|---
 A nurse that is preparing for an IV-test.  | Nurse |
+As a nursing student, I want to get exellent test grade so I can ask for stipend. | Student |
+As a teacher I want improve students knowledge so more passes tests. | Teacher |
 
 ## Risks
 

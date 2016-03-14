@@ -100,7 +100,7 @@ body,header{
 
 #progressbarProgress{
 
-	width:50px;
+	width:25%;
 	height:20px;
 	background:red;
 	border-radius:15px;
@@ -110,5 +110,5 @@ body,header{
 
 #nextbutton{
 	margin:auto;
-	width:40%;
+	width:100px;
 }

@@ -40,6 +40,13 @@ $cakeDescription = 'Iaso - Game';
     <div class="header-image">
         <?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
         <h1>Pelinäkymä</h1>
+        <?PHP foreach($medicines as $medicine => $key) {
+            //Debugger::dump($medicines);
+            echo $key['PrimaryKey'];
+            echo $key['Indication'];
+            echo "<br>";
+        }
+        ?>
     </div>
 </header>
 <div id="content">

@@ -17,6 +17,7 @@ namespace App\Controller;
 use Cake\Core\Configure;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
+use Cake\Datasource\ConnectionManager;
 
 class GameController extends AppController
 {
@@ -24,6 +25,8 @@ class GameController extends AppController
      */
     public function index()
     {
-
+        $connection = ConnectionManager::get('default');
+        $results = $connection->execute('SELECT * FROM medicine')->fetchAll('assoc');
+        $this->set('medicines', $results);
     }
 }

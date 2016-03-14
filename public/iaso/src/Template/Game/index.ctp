@@ -37,7 +37,6 @@ $cakeDescription = 'Iaso - Game';
 </head>
 <body>
 <header>
-<<<<<<< HEAD
     <div class="header-image">
         <?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
         <h1>Pelinäkymä</h1>
@@ -49,9 +48,6 @@ $cakeDescription = 'Iaso - Game';
         }
         ?>
     </div>
-=======
-
->>>>>>> 59899541a6bde4a7ae6a3673ef5a95224b5f0468
 </header>
 	<div id="MainContainer">
 		<div id="MainContainerContent">

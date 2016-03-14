@@ -1,6 +1,7 @@
 .button {
-    width: 170px;
+    width: 100px;
     height: auto;
+	border-radius:15px;
 }
 
 #content {
@@ -11,4 +12,103 @@
     text-align: center;
     background-color: #15848f;
     min-height: 100%;
+}
+
+#MainContainer{
+	width: 80%;
+	background: black;
+	margin:auto;
+	border-radius:10px;
+	padding: 10px 10px 10px 10px;
+}
+
+#MainContainerContent{
+	width:100%;
+	background: #66b3ff;
+}
+
+.NavBar {
+	width:100%;
+	background: yellow;
+	text-align: center;
+}
+
+body,header{
+	background:green;
+}
+
+#Container{
+	padding: 10px 0 10px 0;
+}
+
+#product{
+	width: 20%;
+	background: red;
+	margin: auto;
+	margin-bottom:30px;
+	margin-top:30px;
+	padding: 30px 0px 30px 0px;
+	border-radius:5px;
+	text-align:center;
+}
+
+.rightside{
+	float:right;
+	width:15%;
+	padding: 15px 0px 20px 0px;
+	
+}
+
+.block{
+	padding: 3px 3px 3px 3px;
+	background:white;
+	margin:15px 15px 15px 15px;
+	border-radius:10px;
+}
+
+#mainQuestion{
+	padding:3px 3px 3px 3px;
+	margin-bottom:20px;
+	background:gray;
+}
+#questions{
+	padding:3px 3px 3px 3px;
+	background:gray;
+}
+.question{
+	padding: 10px 10px 10px 10px;
+	margin:10px 0 10px 0;
+}
+#footpanel{
+	margin:15px 0 0 0;
+	padding-bottom:15px;
+}
+
+#footpanelHolder{
+	width:30%;
+	margin:auto;
+}
+
+#progressbar{
+	margin:auto;
+	width:100%;
+	background:black;
+	border-radius:15px;
+	margin-bottom:15px;
+	
+}
+
+#progressbarProgress{
+
+	width:50px;
+	height:20px;
+	background:red;
+	border-radius:15px;
+	margin-bottom:15px;
+	
+}
+
+#nextbutton{
+	margin:auto;
+	width:40%;
 }

@@ -36,19 +36,6 @@ $cakeDescription = 'Iaso - Game';
     <?= $this->Html->css('iaso.css') ?>
 </head>
 <body>
-<header>
-    <div class="header-image">
-        <?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
-        <h1>Pelinäkymä</h1>
-        <?PHP foreach($medicines as $medicine => $key) {
-            //Debugger::dump($medicines);
-            echo $key['PrimaryKey'];
-            echo $key['Indication'];
-            echo "<br>";
-        }
-        ?>
-    </div>
-</header>
 	<div id="MainContainer">
 		<div id="MainContainerContent">
 			<div class="NavBar">
@@ -56,7 +43,6 @@ $cakeDescription = 'Iaso - Game';
 			</div>
 
 			<div id="Container">
-			
 				<div class="rightside">
 					<div class="block">
 						Time
@@ -65,7 +51,6 @@ $cakeDescription = 'Iaso - Game';
 						PTS
 					</div>
 				</div>
-			
 				<div id="product">
 					Ibuprofen
 				</div>		
@@ -102,6 +87,13 @@ $cakeDescription = 'Iaso - Game';
 			</div>
 		</div>
 	</div>
+	<?PHP foreach($medicines as $medicine => $key) {
+		//Debugger::dump($medicines);
+		echo $key['PrimaryKey'];
+		echo $key['Indication'];
+		echo "<br>";
+	}
+	?>
 <footer>
 </footer>
 </body>

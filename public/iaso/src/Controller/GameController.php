@@ -18,15 +18,43 @@ use Cake\Core\Configure;
 use Cake\Network\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 use Cake\Datasource\ConnectionManager;
+use Cake\ORM\TableRegistry;
+use Cake\Error\Debugger;
 
 class GameController extends AppController
 {
-    /*
-     */
     public function index()
     {
+        $random = rand(1,25);
         $connection = ConnectionManager::get('default');
-        $results = $connection->execute('SELECT * FROM medicine')->fetchAll('assoc');
-        $this->set('medicines', $results);
+        /*
+        $medicine_results = $connection->execute('SELECT * FROM medicine WHERE PrimaryKey = :random',
+                    ['random' => $random])
+                    ->fetchAll('assoc');
+        $this->set('medicines', $medicine_results);
+        */
+
+        $medicine_results = $connection->execute('SELECT * FROM medicine WHERE PrimaryKey = :random',
+            ['random' => $random])
+            ->fetchAll('assoc');
+        $this->set('medicines', $medicine_results);
+
+        //debug($brand_results);
+
+        $brand_id = $medicine_results[0]['Brand'];
+        $brand_results = $connection->execute('SELECT * FROM brand WHERE PrimaryKey = :brand',
+            ['brand' => $brand_id])
+            ->fetchAll('assoc');
+        $this->set('brand', $brand_results);
+
+        $query = $connection->execute('SELECT * FROM medicine')
+            ->fetchAll('assoc');
+
+        //debug($query);
+
+        /*
+        foreach ($query as $medicine) {
+            echo $medicine->Dosage;
+        }*/
     }
 }

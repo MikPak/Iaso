@@ -52,11 +52,11 @@ $cakeDescription = 'Iaso - Game';
 					</div>
 				</div>
 				<div id="product">
-					Ibuprofen
+                    <?php echo $brand[0]['Brand']; ?>
 				</div>		
 			</div>
 			<div id="mainQuestion">
-				Who stole my bike?!
+				This medicine is used for..
 			</div>
 			<form>
 			<div id="questions">
@@ -88,10 +88,12 @@ $cakeDescription = 'Iaso - Game';
 		</div>
 	</div>
 	<?PHP foreach($medicines as $medicine => $key) {
-		//Debugger::dump($medicines);
-		echo $key['PrimaryKey'];
+		Debugger::dump($medicines);
+		echo $key['Brand'];
 		echo $key['Indication'];
-		echo "<br>";
+        echo "<br>";
+        echo $brand[0]['Brand'];
+		//echo "<br>";
 	}
 	?>
 <footer>

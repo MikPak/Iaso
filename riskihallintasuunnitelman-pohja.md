@@ -8,6 +8,8 @@
 | RISK06 | Project group can't share work tasks. | Project is delayed alot. | Medium | V2 | Be flexible and use teamwork |
 | RISK07 | Customer don't have time to meet | Problems to understand client | Medium | V2 | Be active to get meeting |
 | RISK08 | Customer disappears | Funding ends | Low | V1 | Actively contact the customer |
+| RISK09 | Workstation brokes | Can't work | Med | V2 | All work must have backups |
+| RISK10 | Labranet is using too low PHP version | Can't test all functions | High | V1 | Functions that PHP 5.3 does not support must be coded and tested somewhere else |
 
 | SEVERITY | DESCRIPTION |
 |:----:|:----:|

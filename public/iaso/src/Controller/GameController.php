@@ -25,6 +25,27 @@ class GameController extends AppController
 {
     public function index()
     {
+        // Checking if answer was correct
+        if($this->request->is('post')) {
+            //debug($this->request->data);
+            if($this->request->data) {
+                $session = $this->request->session();
+                echo "User's choice: " . $this->request->data['answer'][0] . "<br>";
+                echo "Correct answer: " . $session->read('Question.AnswerID') . "<br>";
+            }
+        }
+
+        /* Randomisation for questions will be here.
+         * Yet to be implemented.. */
+        $this->question_medicineUsedFor();
+    }
+
+    /*
+     * Will generate question about random medicine and
+     * make claims about where one could use it.
+     * There is only one correct answer, at the moment.
+    */
+    private function question_medicineUsedFor() {
         $connection = ConnectionManager::get('default');
 
         // Fetch 4 random ID's from medicines
@@ -38,15 +59,18 @@ class GameController extends AppController
         foreach ($query as $claim) {
             array_push($claims,$claim);
         }
-        $this->set('claims', $claims);
+        $this->set('claims', $claims); // Set variable for the view
 
+        // Lets randomize our question and set variable for the view
         $random = rand(0,3);
-        //echo $random;
         $this->set('vastaus', $claims[$random]);
+        // Set correct answer to session
+        $session = $this->request->session();
+        $session->write('Question.AnswerID', $random);
         //echo $claims[$random]['Indication'];
         //debug($claims);
 
-        // Form a question of claims[0] and fetch corresponding data from brand
+        // Get random medicine data from the DB
         $brand_id = $claims[$random]['Brand'];
         $brand_results = $connection->execute('SELECT * FROM brand WHERE PrimaryKey = :brand',
             ['brand' => $brand_id])
@@ -54,9 +78,7 @@ class GameController extends AppController
         $this->set('brand', $brand_results);
         //debug($brand_results);
     }
-	public function playagain(){
-		
-	}
+
     /*
     *   Generate n-amount of unique integers ranging between $min and $max
     */
@@ -72,5 +94,9 @@ class GameController extends AppController
         }
         //debug($random);
         return $random;
+    }
+
+    public function playagain(){
+
     }
 }

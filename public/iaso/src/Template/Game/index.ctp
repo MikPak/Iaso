@@ -58,23 +58,22 @@ $cakeDescription = 'Iaso - Game';
 			<div id="mainQuestion">
 				This medicine is used for..
 			</div>
-			<form>
+			<?php echo $this->Form->create(); ?>
 			<div id="questions">
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[0]['Indication']; ?>
+					<input type="checkbox" name="answer[]" value="0"><?php echo $claims[0]['Indication']; ?>
 				</div>
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[1]['Indication']; ?>
+					<input type="checkbox" name="answer[]" value="1"><?php echo $claims[1]['Indication']; ?>
 				</div>
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[2]['Indication']; ?>
+					<input type="checkbox" name="answer[]" value="2"><?php echo $claims[2]['Indication']; ?>
 				</div>
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[3]['Indication']; ?>
+					<input type="checkbox" name="answer[]" value="3"><?php echo $claims[3]['Indication']; ?>
 				</div>
 				<i>Oikea vastaus: </i> <?php echo $vastaus['Indication']; ?>
 			</div>
-			</form>
 			<div id="footpanel">
 				<div id="footpanelHolder">
 					<div id="progressbar">
@@ -82,8 +81,9 @@ $cakeDescription = 'Iaso - Game';
 						</div>
 					</div>
 					<div id="nextbutton">
-						<?= $this->Html->link('Next', '/game/', array('class' => 'button')) ?>
+						<?= $this->Form->button('Next', array('class' => 'button')); ?>
 					</div>
+					<?php echo $this->Form->end(); ?>
 				</div>
 			</div>
 		</div>

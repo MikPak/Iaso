@@ -27,26 +27,21 @@ class GameController extends AppController
     {
         $random = rand(1,25);
         $connection = ConnectionManager::get('default');
-        /*
-        $medicine_results = $connection->execute('SELECT * FROM medicine WHERE PrimaryKey = :random',
-                    ['random' => $random])
-                    ->fetchAll('assoc');
-        $this->set('medicines', $medicine_results);
-        */
 
+        // Fetch random medicine
         $medicine_results = $connection->execute('SELECT * FROM medicine WHERE PrimaryKey = :random',
             ['random' => $random])
             ->fetchAll('assoc');
         $this->set('medicines', $medicine_results);
 
-        //debug($brand_results);
-
+        // Get medicine brand
         $brand_id = $medicine_results[0]['Brand'];
         $brand_results = $connection->execute('SELECT * FROM brand WHERE PrimaryKey = :brand',
             ['brand' => $brand_id])
             ->fetchAll('assoc');
         $this->set('brand', $brand_results);
 
+        // Fetch all from medicine
         $query = $connection->execute('SELECT * FROM medicine')
             ->fetchAll('assoc');
 

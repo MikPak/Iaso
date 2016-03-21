@@ -136,6 +136,8 @@ As a teacher I want improve students knowledge so more passes tests. | Teacher |
 | RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | P2 | R10 | Project manager | 	Try to exploit the best aspects of the group members |
 | RISK07 | Customer don't have time to meet | Problems to understand client | V4 | P2 | R8 | - | Try to get a meeting soon as possible |
 | RISK08 | Customer disappears | The funding ends | V5 | P1 | R5 | Project manager | Actively try to have contact with the customer |
+| RISK09 | Workstation brokes | Can't work | V3 | P3 | R9 | Group Member | All work must have backups |
+| RISK10 | Labranet is using too low PHP version | Can't test all functions | V3 | P4 | R12 | Functions that PHP 5.3 does not support must be coded and tested somewhere else |
 
 
 | Severity | Description |

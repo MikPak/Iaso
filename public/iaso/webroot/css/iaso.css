@@ -2,6 +2,7 @@
     width: 100px;
     height: auto;
 	border-radius:15px;
+	background:#497699;
 }
 
 #content {
@@ -16,7 +17,7 @@
 
 #MainContainer{
 	width: 80%;
-	background: black;
+	background: #666666;
 	margin:auto;
 	border-radius:10px;
 	padding: 10px 10px 10px 10px;
@@ -24,17 +25,18 @@
 
 #MainContainerContent{
 	width:100%;
-	background: #66b3ff;
+	background: #a0bfd7;
 }
 
 .NavBar {
 	width:100%;
-	background: yellow;
+	background: #497699;
 	text-align: center;
+	color:#d2e3f0;
 }
 
 body,header{
-	background:green;
+	background:#e1e1e1;
 }
 
 #Container{
@@ -43,7 +45,8 @@ body,header{
 
 #product{
 	width: 20%;
-	background: red;
+	background: #d2e3f0;
+	color:#000000;
 	margin: auto;
 	margin-bottom:30px;
 	margin-top:30px;
@@ -61,19 +64,21 @@ body,header{
 
 .block{
 	padding: 3px 3px 3px 3px;
-	background:white;
+	background:#497699;
+	color:#d2e3f0;
 	margin:15px 15px 15px 15px;
 	border-radius:10px;
 }
 
 #mainQuestion{
+	background:#d2e3f0;
+	color:#000000;
 	padding:3px 3px 3px 3px;
 	margin-bottom:20px;
-	background:gray;
 }
 #questions{
 	padding:3px 3px 3px 3px;
-	background:gray;
+	background:#d2e3f0;
 }
 .question{
 	padding: 10px 10px 10px 10px;
@@ -92,7 +97,7 @@ body,header{
 #progressbar{
 	margin:auto;
 	width:100%;
-	background:black;
+	background:#e1e1e1;
 	border-radius:15px;
 	margin-bottom:15px;
 	
@@ -102,7 +107,7 @@ body,header{
 
 	width:25%;
 	height:20px;
-	background:red;
+	background:#a4a4a4;
 	border-radius:15px;
 	margin-bottom:15px;
 	

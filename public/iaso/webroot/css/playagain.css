@@ -2,6 +2,7 @@
     width: 200px;
     height: auto;
 	border-radius:15px;
+		background:#243b4c;
 }
 
 #content {
@@ -15,8 +16,8 @@
 }
 
 #MainContainer{
-	width: 80%;
-	background: black;
+	width: 95%;
+	background: #666666;
 	margin:auto;
 	border-radius:10px;
 	padding: 10px 10px 10px 10px;
@@ -24,21 +25,37 @@
 
 #MainContainerContent{
 	width:100%;
-	background: #66b3ff;
+	background: #a0bfd7;
+	padding: 10px 10px 10px 10px;
 }
 
 body,header{
-	background:green;
+	background:#e1e1e1;
+}
+
+#yourScore{
+	color: #ffffff;
+	width: 80%;
+	font-size:20px;
+	background:#243b4c;
+	margin:auto;
+	padding: 15px 15px 15px 15px;
+	border-radius:5px;
 }
 
 #Container{
 	padding: 10px 0 10px 0;
+	width:30%;
+
+	background:#497699;
+	margin:auto;
+	border-radius:10px;
+	margin-top:50px;
 }
 
 #scoreContainer{
 	font-size:26px;
-	width: 35%;
-	background: red;
+	width: 100%;
 	margin: auto;
 	margin-bottom:30px;
 	margin-top:30px;
@@ -48,9 +65,10 @@ body,header{
 }
 
 .scoreContent{
-	width: 40%;
+	color: #ffffff;
+	width: 80%;
 	font-size:20px;
-	background:yellow;
+	background:#243b4c;
 	margin:auto;
 	margin-top:30px;
 	padding: 15px 15px 15px 15px;

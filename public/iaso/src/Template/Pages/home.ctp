@@ -37,20 +37,28 @@ $cakeDescription = 'Iaso - Home';
     <?= $this->Html->meta('icon') ?>
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
-    <?= $this->Html->css('iaso.css') ?>
+    <?= $this->Html->css('iasomenu.css') ?>
 </head>
 <body class="home">
-    <header>
-        <div class="header-image">
-            <?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
-            <h1>Iaso</h1>
-        </div>
-    </header>
-    <div id="content">
-        <div class="content_holder">
-            <?= $this->Html->link('Start', '/game/', array('class' => 'button')) ?>
-        </div>
-    </div>
+	<div id="MainContainer">
+		<div id="MainContainerContent">
+				<div class="menuBlock">
+					<h1>Iaso</h1>
+				</div>
+				<div class="menuBlock">
+					<p>Game to improve your medical knowledge!</p>
+				</div>
+				<div class="menuBlockPicture">
+
+					<?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
+
+				</div>
+				<div id="nextbutton">
+						<?= $this->Html->link('Start Game', '/game/', array('class' => 'button')) ?>
+				</div>
+			</div>
+		</div>
+	</div>
     <footer>
     </footer>
 </body>

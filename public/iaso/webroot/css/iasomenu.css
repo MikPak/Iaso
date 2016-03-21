@@ -1,0 +1,49 @@
+.button {
+    width: 200px;
+    height: auto;
+	border-radius:15px;
+	background:#497699;
+}
+
+#content {
+    height: 100%;
+}
+
+#MainContainer{
+	width: 80%;
+	background: #666666;
+	margin:auto;
+	border-radius:10px;
+	padding: 10px 10px 10px 10px;
+}
+
+#MainContainerContent{
+	width:100%;
+	background: #a0bfd7;
+}
+
+body,header{
+	background:#e1e1e1;
+}
+
+
+.menuBlock{
+	margin:auto;
+	width:65%;
+	text-align:center;
+}
+
+.menuBlock h1{
+	color:#3b1e74;
+}
+
+.menuBlockPicture{
+	margin:auto;
+	width:80%;
+	margin-bottom:50px;
+}
+
+#nextbutton{
+	margin:auto;
+	width:200px;
+}

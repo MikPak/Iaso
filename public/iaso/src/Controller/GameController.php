@@ -54,7 +54,9 @@ class GameController extends AppController
         $this->set('brand', $brand_results);
         //debug($brand_results);
     }
-
+	public function playagain(){
+		
+	}
     /*
     *   Generate n-amount of unique integers ranging between $min and $max
     */

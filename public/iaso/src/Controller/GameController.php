@@ -25,31 +25,50 @@ class GameController extends AppController
 {
     public function index()
     {
-        $random = rand(1,25);
         $connection = ConnectionManager::get('default');
 
-        // Fetch random medicine
-        $medicine_results = $connection->execute('SELECT * FROM medicine WHERE PrimaryKey = :random',
-            ['random' => $random])
-            ->fetchAll('assoc');
-        $this->set('medicines', $medicine_results);
+        // Fetch 4 random ID's from medicines
+        $medicines = TableRegistry::get('Medicine');
+        $random = $this->randomNumbers(4, 1, 25);
+        $query = $medicines->find()->where(['PrimaryKey IN' => $random])->all();
+        //debug($query);
 
-        // Get medicine brand
-        $brand_id = $medicine_results[0]['Brand'];
+        // Save result set to array
+        $claims = array();
+        foreach ($query as $claim) {
+            array_push($claims,$claim);
+        }
+        $this->set('claims', $claims);
+
+        $random = rand(0,3);
+        //echo $random;
+        $this->set('vastaus', $claims[$random]);
+        //echo $claims[$random]['Indication'];
+        //debug($claims);
+
+        // Form a question of claims[0] and fetch corresponding data from brand
+        $brand_id = $claims[$random]['Brand'];
         $brand_results = $connection->execute('SELECT * FROM brand WHERE PrimaryKey = :brand',
             ['brand' => $brand_id])
             ->fetchAll('assoc');
         $this->set('brand', $brand_results);
+        //debug($brand_results);
+    }
 
-        // Fetch all from medicine
-        $query = $connection->execute('SELECT * FROM medicine')
-            ->fetchAll('assoc');
-
-        //debug($query);
-
-        /*
-        foreach ($query as $medicine) {
-            echo $medicine->Dosage;
-        }*/
+    /*
+    *   Generate n-amount of unique integers ranging between $min and $max
+    */
+    private function randomNumbers($count, $min, $max) {
+        $random = array();
+        for($i = 0; $i < $count; $i++) {
+            $rand = rand($min,$max);
+            if(!in_array($rand, $random)) {
+                array_push($random,$rand);
+            } else {
+                $i--;
+            }
+        }
+        //debug($random);
+        return $random;
     }
 }

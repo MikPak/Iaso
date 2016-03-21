@@ -61,17 +61,18 @@ $cakeDescription = 'Iaso - Game';
 			<form>
 			<div id="questions">
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike">Mikko stole my bike
+					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[0]['Indication']; ?>
 				</div>
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike">Lauri stole my bike
+					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[1]['Indication']; ?>
 				</div>
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike">Emil stole my bike
+					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[2]['Indication']; ?>
 				</div>
 				<div class="question">
-					<input type="checkbox" name="vehicle" value="Bike">Matias stole my bike
+					<input type="checkbox" name="vehicle" value="Bike"><?php echo $claims[3]['Indication']; ?>
 				</div>
+				<i>Oikea vastaus: </i> <?php echo $vastaus['Indication']; ?>
 			</div>
 			</form>
 			<div id="footpanel">
@@ -87,15 +88,6 @@ $cakeDescription = 'Iaso - Game';
 			</div>
 		</div>
 	</div>
-	<?PHP foreach($medicines as $medicine => $key) {
-		Debugger::dump($medicines);
-		echo $key['Brand'];
-		echo $key['Indication'];
-        echo "<br>";
-        echo $brand[0]['Brand'];
-		//echo "<br>";
-	}
-	?>
 <footer>
 </footer>
 </body>

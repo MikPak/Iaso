@@ -53,16 +53,12 @@ $cakeDescription = 'Iaso - Game';
 						Score <br>
 						SCORE HERE
 					</div>
-				</div>		
-			</div>
-			
-			<div id="footpanel">
-				<div id="footpanelHolder">
 					<div id="nextbutton">
 						<?= $this->Html->link('Play again', '/game/', array('class' => 'button')) ?>
 					</div>
-				</div>
+				</div>		
 			</div>
+
 		</div>
 	</div>
 <footer>

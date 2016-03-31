@@ -44,7 +44,7 @@ body,header{
 }
 
 #product{
-	width: 20%;
+	width: 150px;
 	background: #d2e3f0;
 	color:#000000;
 	margin: auto;
@@ -57,7 +57,7 @@ body,header{
 
 .rightside{
 	float:right;
-	width:15%;
+	width:120px;
 	padding: 15px 0px 20px 0px;
 	
 }
@@ -97,4 +97,9 @@ body,header{
 #nextbutton{
 	margin:auto;
 	width:100px;
+}
+@media screen and (max-width: 500px) {
+	#product{
+		margin-left:15px;
+	}
 }

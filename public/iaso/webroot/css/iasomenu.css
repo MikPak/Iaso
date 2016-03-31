@@ -29,7 +29,7 @@ body,header{
 
 .menuBlock{
 	margin:auto;
-	width:65%;
+	width:70%;
 	text-align:center;
 	margin-bottom:30px;
 }
@@ -42,6 +42,7 @@ body,header{
 
 .menuBlock h1{
 	color:#3b1e74;
+	font-size:46px;
 }
 
 .menuBlockPicture{
@@ -53,4 +54,19 @@ body,header{
 
 	margin:auto;
 	width:200px;
+}
+
+@media screen and (max-width: 500px) {
+	
+	.menuBlock h1{
+	color:#3b1e74;
+	font-size:40px;
+	}
+
+	.menuBlock p {
+		margin:auto;
+		width:90%;
+		text-align:center;
+		margin-bottom:30px;
+	}
 }

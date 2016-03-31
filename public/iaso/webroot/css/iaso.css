@@ -16,7 +16,7 @@
 }
 
 #MainContainer{
-	width: 80%;
+	width: 95%;
 	background: #666666;
 	margin:auto;
 	border-radius:10px;
@@ -92,25 +92,6 @@ body,header{
 #footpanelHolder{
 	width:30%;
 	margin:auto;
-}
-
-#progressbar{
-	margin:auto;
-	width:100%;
-	background:#e1e1e1;
-	border-radius:15px;
-	margin-bottom:15px;
-	
-}
-
-#progressbarProgress{
-
-	width:25%;
-	height:20px;
-	background:#a4a4a4;
-	border-radius:15px;
-	margin-bottom:15px;
-	
 }
 
 #nextbutton{

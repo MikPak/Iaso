@@ -43,7 +43,7 @@ $cakeDescription = 'Iaso - Game';
 				
 				<div id="scoreContainer">
                     <div id="yourScore">
-						Your Score
+						Game Details:
 					</div>
 					<div class="scoreContent">
 						Time <br>

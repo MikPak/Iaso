@@ -46,9 +46,9 @@ $cakeDescription = 'Iaso - Home';
 					<h1>Iaso</h1>
 				</div>
 				<div class="menuBlock">
-					<p>Game to improve your medical knowledge!</p>
+					<p>Game is based on multiple different question categories. Improve or test your medical knowledge. Good luck!</p>
 				</div>
-				<div class="menuBlockPicture">
+				<div class="menuBlock">
 
 					<?= $this->Html->image('iaso_logo.jpg',array('alt'=>'iaso'));?>
 

@@ -39,7 +39,7 @@ $cakeDescription = 'Iaso - Game';
 	<div id="MainContainer">
 		<div id="MainContainerContent">
 			<div class="NavBar">
-				0 1 2 3 4 5
+				<?php echo "".$count." / 10"; ?>
 			</div>
 
 			<div id="Container">
@@ -54,6 +54,14 @@ $cakeDescription = 'Iaso - Game';
 				<div id="product">
                     <?php echo $brand[0]['Brand']; ?>
 				</div>		
+			</div>
+			<div class="correct">
+				<?php
+					if($this->request->is('post')) {
+						if($correct) echo "Correct!";
+						else echo "Wrong!";
+					}
+				?>
 			</div>
 			<div id="mainQuestion">
 				This medicine is used for..
@@ -76,10 +84,6 @@ $cakeDescription = 'Iaso - Game';
 			</div>
 			<div id="footpanel">
 				<div id="footpanelHolder">
-					<div id="progressbar">
-						<div id="progressbarProgress">
-						</div>
-					</div>
 					<div id="nextbutton">
 						<?= $this->Form->button('Next', array('class' => 'button')); ?>
 					</div>

@@ -70,6 +70,10 @@ body,header{
 	border-radius:10px;
 }
 
+.correct {
+	text-align: center;
+}
+
 #mainQuestion{
 	background:#d2e3f0;
 	color:#000000;

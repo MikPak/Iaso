@@ -25,13 +25,33 @@ class GameController extends AppController
 {
     public function index()
     {
+        $session = $this->request->session();
+
+        // Set question count if not set
+        if(!$session->read('Question.Count') || $session->read('Question.Count') > 10) {
+            $session->write('Question.Count', 1);
+        }
+
+        // Set count for the view
+        $this->set('count', $session->read('Question.Count'));
+
         // Checking if answer was correct
         if($this->request->is('post')) {
             //debug($this->request->data);
             if($this->request->data) {
-                $session = $this->request->session();
-                echo "User's choice: " . $this->request->data['answer'][0] . "<br>";
-                echo "Correct answer: " . $session->read('Question.AnswerID') . "<br>";
+                $answerID = $this->request->data['answer'][0];
+                $correctID = $session->read('Question.AnswerID');
+
+                // Update question count
+                $questionCount = $session->read('Question.Count');
+                $questionCount++;
+                $session->write('Question.Count', $questionCount);
+
+                if($answerID == $correctID) {
+                    $this->set('correct', 1);
+                } else {
+                    $this->set('correct', 0); // Set answer incorrect by default
+                }
             }
         }
 

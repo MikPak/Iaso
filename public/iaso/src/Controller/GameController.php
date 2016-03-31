@@ -105,6 +105,66 @@ class GameController extends AppController
         $this->set('brand', $brand_results);
         //debug($brand_results);
     }
+	
+	/*
+	Kysystään missä lääkeaineessa active_substance vaikuttaa
+	*/
+	private function question_medicineActiveSubstance() {
+        $connection = ConnectionManager::get('default');
+
+        // Fetch 4 random ID's from medicines
+        $medicines = TableRegistry::get('Medicine');
+        $random = $this->randomNumbers(4, 1, 25);
+        $query = $medicines->find()->where(['PrimaryKey IN' => $random])->all();
+        debug($query);
+		
+		// Save result set to array
+        $claims = array();
+        foreach ($query as $claim) {
+            array_push($claims,$claim);
+        }
+        $this->set('claims', $claims); // Set variable for the view
+
+		
+		
+		
+		// for looppiin pyörähtämään?
+		$claims2 = array();
+		$medicines2 = TableRegistry::get('Brand');
+		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[0]['Brand']])->all();
+		array_push($claims2,$query2);
+		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[1]['Brand']])->all();
+		array_push($claims2,$query2);
+		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[2]['Brand']])->all();
+		array_push($claims2,$query2);
+		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[3]['Brand']])->all();
+		array_push($claims2,$query2);
+		$this->set('claims2', $claims2);
+		debug($claims2);
+
+		
+		
+		
+		
+		
+        // Lets randomize our question and set variable for the view
+        $random = rand(0,3);
+        $this->set('vastaus', $claims[$random]);
+        // Set correct answer to session
+        $session = $this->request->session();
+        $session->write('Question.AnswerID', $random);
+        //echo $claims[$random]['Indication'];
+       // debug($claims);
+
+        // Get random medicine data from the DB
+        $substance_id = $claims[$random]['ActiveSubstance'];
+        $substance_results = $connection->execute('SELECT * FROM active_substance WHERE PrimaryKey = :substance',
+            ['substance' => $substance_id])
+            ->fetchAll('assoc');
+        $this->set('substance', $substance_results);
+        debug($substance_results);
+	}
+	
 
     /*
     *   Generate n-amount of unique integers ranging between $min and $max

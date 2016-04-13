@@ -23,7 +23,7 @@
 * [Iaso - Slack](https://iaso-team.slack.com)
 * [Iaso - CommonKey](https://app.commonkey.com/login)
 * [Iaso - Heroku](https://id.heroku.com/login)
-* [Iaso - iaso-demo.herokuapp.com](http://iaso-demo.herokuapp.com/)
+* [Iaso - iaso-demo.herokuapp.com](http://iaso.herokuapp.com/)
 * [Iaso - CircleCI](https://circleci.com/)
 * [Github Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/)
 * [Iaso - Gannt Chart](https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)

@@ -30,17 +30,25 @@ class GameController extends AppController
         // Set question count if not set
         if(!$session->read('Question.Count')) {
             $session->write('Question.Count', 0);
+            // Redirect to Play Again-screen if end of the game
         } else if($session->read('Question.Count') > 10) {
             $session->write('Question.Count', 0);
+            $session->write('Score', 0);
             $this->redirect(array(
                     'action' => 'playagain')
             );
         }
 
-        // Set negative value for variable indicating correctness of answer
+        if(!$session->read('Score')) {
+            $session->write('Score', 0);
+        }
+        $score = $session->read('Score');
+        $this->set('score', $score);
+
+        // Set negative value for view to mark question is wrong by default
         $this->set('correct', 0);
 
-        // Set count for the view
+        // Set question count for the view
         $this->set('count', $session->read('Question.Count'));
 
         // Update question count
@@ -55,22 +63,40 @@ class GameController extends AppController
             if($this->request->data) {
                 $answerID = $this->request->data['answer'][0];
                 $correctID = $session->read('Question.AnswerID');
+                $score = $session->read('Score');
 
-                if($answerID == $correctID) {
+                $question2 = $session->read('Question.AnswerSet');
+                if(isset($question2)) {
+                    //debug($question2);
+                    if($question2[$answerID]['PrimaryKey'] == $correctID) {
+                        $this->set('correct', 1);
+                        $score++;
+                        $session->write('Score', $score);
+                        $this->set('score', $score);
+                    }
+                    // Question 1
+                } else if($answerID == $correctID) {
                     $this->set('correct', 1);
+                    $session->write('Score', $score);
+                    $this->set('score', $score);
                 }
             }
         }
 
         /* Randomisation for questions will be here.
          * Yet to be implemented.. */
-        $this->question_medicineUsedFor();
+        $random = rand(1,100);
+        if($random > 50) {
+            $this->question_medicineUsedFor();
+        } else {
+            $this->question_medicineActiveSubstance();
+        }
     }
 
     /*
-     * Will generate question about random medicine and
-     * make claims about where one could use it.
-     * There is only one correct answer, at the moment.
+     * Generates question about random medicine and
+     * makes claims about how it can be used.
+     * Only one correct answer.
     */
     private function question_medicineUsedFor() {
         $connection = ConnectionManager::get('default');
@@ -79,7 +105,6 @@ class GameController extends AppController
         $medicines = TableRegistry::get('Medicine');
         $random = $this->randomNumbers(4, 1, 25);
         $query = $medicines->find()->where(['PrimaryKey IN' => $random])->all();
-        //debug($query);
 
         // Save result set to array
         $claims = array();
@@ -91,24 +116,25 @@ class GameController extends AppController
         // Lets randomize our question and set variable for the view
         $random = rand(0,3);
         $this->set('vastaus', $claims[$random]);
+
         // Set correct answer to session
         $session = $this->request->session();
         $session->write('Question.AnswerID', $random);
-        //echo $claims[$random]['Indication'];
-        //debug($claims);
 
         // Get random medicine data from the DB
         $brand_id = $claims[$random]['Brand'];
         $brand_results = $connection->execute('SELECT * FROM brand WHERE PrimaryKey = :brand',
             ['brand' => $brand_id])
             ->fetchAll('assoc');
-        $this->set('brand', $brand_results);
+        $this->set('question1', $brand_results);
         //debug($brand_results);
     }
-	
-	/*
-	Kysystään missä lääkeaineessa active_substance vaikuttaa
-	*/
+
+    /*
+     * Will generate quest where indication of the medicine is shown and
+     * user has 4 choices, which are medicine names. One correct answer.
+     * Vice versa to question_medicineUsedFor()
+    */
 	private function question_medicineActiveSubstance() {
         $connection = ConnectionManager::get('default');
 
@@ -116,53 +142,51 @@ class GameController extends AppController
         $medicines = TableRegistry::get('Medicine');
         $random = $this->randomNumbers(4, 1, 25);
         $query = $medicines->find()->where(['PrimaryKey IN' => $random])->all();
-        debug($query);
-		
-		// Save result set to array
+
+        // BUG: Result set of query sometimes only returns 3 rows and
+        // in the view it gives array index error
+
+        // Save result set to array
         $claims = array();
+        $brandPrimaryKeys = array();
+
         foreach ($query as $claim) {
-            array_push($claims,$claim);
+            array_push($claims, $claim);
+            array_push($brandPrimaryKeys, $claim['Brand']); // We want to store selected primary keys
         }
-        $this->set('claims', $claims); // Set variable for the view
 
-		
-		
-		
-		// for looppiin pyörähtämään?
-		$claims2 = array();
-		$medicines2 = TableRegistry::get('Brand');
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[0]['Brand']])->all();
-		array_push($claims2,$query2);
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[1]['Brand']])->all();
-		array_push($claims2,$query2);
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[2]['Brand']])->all();
-		array_push($claims2,$query2);
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[3]['Brand']])->all();
-		array_push($claims2,$query2);
-		$this->set('claims2', $claims2);
-		debug($claims2);
+        $random = rand(0,3); // Generate random int, which we refer as array position
+        $this->set('vastaus', $brandPrimaryKeys[$random]); // Set random primarykey as correct answer
+        $this->set('question2', $claims[$random]); // Set variable for the view
+        //debug($brandPrimaryKeys);
 
-		
-		
-		
-		
-		
-        // Lets randomize our question and set variable for the view
-        $random = rand(0,3);
-        $this->set('vastaus', $claims[$random]);
-        // Set correct answer to session
+		// Get Brands
+		$medicines = TableRegistry::get('Brand');
+        $query = $medicines->find()->where(['PrimaryKey IN' => $brandPrimaryKeys])->all();
+
+        $claims2 = array();
+
+        // Loop through Brands-rows
+        foreach ($query as $brand) {
+            array_push($claims2, $brand);
+        }
+
+        $this->set('claims2', $claims2); // Save answer-set for view
+
         $session = $this->request->session();
-        $session->write('Question.AnswerID', $random);
-        //echo $claims[$random]['Indication'];
-       // debug($claims);
+        // Set correct answer ID to session
+        $session->write('Question.AnswerID', $claims2[$random]['PrimaryKey']);
+        // Set answer-set to session
+        $session->write('Question.AnswerSet', $claims2);
 
-        // Get random medicine data from the DB
+        /* Get random medicine data from the DB
         $substance_id = $claims[$random]['ActiveSubstance'];
         $substance_results = $connection->execute('SELECT * FROM active_substance WHERE PrimaryKey = :substance',
             ['substance' => $substance_id])
             ->fetchAll('assoc');
         $this->set('substance', $substance_results);
-        debug($substance_results);
+        //debug($substance_results);
+        */
 	}
 	
 
@@ -174,12 +198,11 @@ class GameController extends AppController
         for($i = 0; $i < $count; $i++) {
             $rand = rand($min,$max);
             if(!in_array($rand, $random)) {
-                array_push($random,$rand);
+                    array_push($random,$rand);
             } else {
                 $i--;
             }
         }
-        //debug($random);
         return $random;
     }
 

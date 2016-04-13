@@ -48,11 +48,20 @@ $cakeDescription = 'Iaso - Game';
 						Time
 					</div>
 					<div class="block">
-						PTS
+						<?php echo "Pts: ".$score.""; ?>
 					</div>
 				</div>
 				<div id="product">
-                    <?php echo $brand[0]['Brand']; ?>
+                    <?php
+						/* 	Check which question GameController has drawn
+						 *	and form the question respectively.
+						 */
+						if(isset($question1)) { // question_medicineUsedFor()
+							echo $question1[0]['Brand'];
+						} else if(isset($question2)) { // question_medicineActiveSubstance()
+							echo $question2['Indication'];
+						}
+					?>
 				</div>		
 			</div>
 			<div class="correct">
@@ -64,23 +73,46 @@ $cakeDescription = 'Iaso - Game';
 				?>
 			</div>
 			<div id="mainQuestion">
-				This medicine is used for..
+				<?php
+					/*
+					 *	Set correct assignment for the question
+					 */
+					if(isset($question1)) { // question_medicineUsedFor()
+						echo "This medicine is used for..";
+					} else if(isset($question2)) { // question_medicineActiveSubstance()
+						echo "Select medicine to match indication above..";
+					}
+				?>
 			</div>
 			<?php echo $this->Form->create(); ?>
 			<div id="questions">
-				<div class="question">
-					<input type="checkbox" name="answer[]" value="0"><?php echo $claims[0]['Indication']; ?>
-				</div>
-				<div class="question">
-					<input type="checkbox" name="answer[]" value="1"><?php echo $claims[1]['Indication']; ?>
-				</div>
-				<div class="question">
-					<input type="checkbox" name="answer[]" value="2"><?php echo $claims[2]['Indication']; ?>
-				</div>
-				<div class="question">
-					<input type="checkbox" name="answer[]" value="3"><?php echo $claims[3]['Indication']; ?>
-				</div>
-				<i>Oikea vastaus: </i> <?php echo $vastaus['Indication']; ?>
+				<?php if(isset($question1)) { // question_medicineUsedFor() ?>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="0"><?php echo $claims[0]['Indication']; ?>
+					</div>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="1"><?php echo $claims[1]['Indication']; ?>
+					</div>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="2"><?php echo $claims[2]['Indication']; ?>
+					</div>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="3"><?php echo $claims[3]['Indication']; ?>
+					</div>
+				<?php } elseif(isset($question2)) { ?>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="0"><?php echo $claims2[0]['Brand']; ?>
+					</div>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="1"><?php echo $claims2[1]['Brand']; ?>
+					</div>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="2"><?php echo $claims2[2]['Brand']; ?>
+					</div>
+					<div class="question">
+						<input type="checkbox" name="answer[]" value="3"><?php echo $claims2[3]['Brand']; ?>
+					</div>
+				<?php } ?>
 			</div>
 			<div id="footpanel">
 				<div id="footpanelHolder">

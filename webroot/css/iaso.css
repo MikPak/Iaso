@@ -44,7 +44,7 @@ body,header{
 }
 
 #product{
-	width: 150px;
+	width: 250px;
 	background: #d2e3f0;
 	color:#000000;
 	margin: auto;
@@ -104,6 +104,7 @@ body,header{
 }
 @media screen and (max-width: 500px) {
 	#product{
+		width: 150px;
 		margin-left:15px;
 	}
 }

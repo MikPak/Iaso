@@ -47,11 +47,12 @@ $cakeDescription = 'Iaso - Game';
 					</div>
 					<div class="scoreContent">
 						Time <br>
-						TIME HERE
+						<?php echo $minutes. " min"; ?>
+						<?php echo $seconds. " sec"; ?>
 					</div>
 					<div class="scoreContent">
 						Score <br>
-						SCORE HERE
+						<?php echo $score; ?>
 					</div>
 					<div id="nextbutton">
 						<?= $this->Html->link('Play again', '/game/', array('class' => 'button')) ?>

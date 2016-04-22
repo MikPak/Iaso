@@ -45,9 +45,6 @@ $cakeDescription = 'Iaso - Game';
 			<div id="Container">
 				<div class="rightside">
 					<div class="block">
-						Time
-					</div>
-					<div class="block">
 						<?php echo "Pts: ".$score.""; ?>
 					</div>
 				</div>

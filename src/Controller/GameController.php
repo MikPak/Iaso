@@ -25,15 +25,21 @@ class GameController extends AppController
 {
     public function index()
     {
-        $session = $this->request->session();
 
+        $session = $this->request->session();
+		
+		if($session->read('Question.Count') == 1){
+			$session->write('Time', microtime(true));
+			$session->write('Score', 0);
+		}
+		
+		
         // Set question count if not set
         if(!$session->read('Question.Count')) {
             $session->write('Question.Count', 0);
             // Redirect to Play Again-screen if end of the game
         } else if($session->read('Question.Count') > 10) {
             $session->write('Question.Count', 0);
-            $session->write('Score', 0);
             $this->redirect(array(
                     'action' => 'playagain')
             );
@@ -42,6 +48,11 @@ class GameController extends AppController
         if(!$session->read('Score')) {
             $session->write('Score', 0);
         }
+		
+		if(!$session->read('Time')) {
+            $session->write('Time', microtime(true));
+        }
+		
         $score = $session->read('Score');
         $this->set('score', $score);
 
@@ -208,5 +219,17 @@ class GameController extends AppController
 
     public function playagain(){
 
+		$session = $this->request->session();
+	
+		$score = $session->read('Score');
+        $this->set('score', $score);
+	
+		$timer = $session->read('Time');
+		$time = number_format((microtime(true)) - $timer, 2);
+		$minutes = (int)($time / 60);
+		$seconds = $time % 60;
+		$this->set('seconds', $seconds);
+		$this->set('minutes', $minutes);
+		
     }
 }

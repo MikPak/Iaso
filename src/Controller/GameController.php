@@ -33,7 +33,6 @@ class GameController extends AppController
 			$session->write('Score', 0);
 		}
 		
-		
         // Set question count if not set
         if(!$session->read('Question.Count')) {
             $session->write('Question.Count', 0);
@@ -44,7 +43,7 @@ class GameController extends AppController
                     'action' => 'playagain')
             );
         }
-
+		
         if(!$session->read('Score')) {
             $session->write('Score', 0);
         }
@@ -69,7 +68,6 @@ class GameController extends AppController
 
         // Checking if answer was correct
         if($this->request->is('post')) {
-            //debug($this->request->data);
 
             if($this->request->data) {
                 $answerID = $this->request->data['answer'][0];
@@ -77,7 +75,15 @@ class GameController extends AppController
                 $score = $session->read('Score');
 
                 $question2 = $session->read('Question.AnswerSet');
-                if(isset($question2)) {
+
+			 // Question 1
+				if($answerID == $correctID) {
+                    $this->set('correct', 1);
+					$score++;
+                    $session->write('Score', $score);
+                    $this->set('score', $score);
+                }
+                else if(isset($question2)) {
                     //debug($question2);
                     if($question2[$answerID]['PrimaryKey'] == $correctID) {
                         $this->set('correct', 1);
@@ -85,12 +91,7 @@ class GameController extends AppController
                         $session->write('Score', $score);
                         $this->set('score', $score);
                     }
-                    // Question 1
-                } else if($answerID == $correctID) {
-                    $this->set('correct', 1);
-                    $session->write('Score', $score);
-                    $this->set('score', $score);
-                }
+                } 
             }
         }
 
@@ -103,7 +104,6 @@ class GameController extends AppController
             $this->question_medicineBrand();
         }
     }
-
     /*
      * Generates question about random medicine and
      * makes claims about how it can be used.
@@ -138,7 +138,6 @@ class GameController extends AppController
             ['brand' => $brand_id])
             ->fetchAll('assoc');
         $this->set('question1', $brand_results);
-        //debug($brand_results);
     }
 
     /*
@@ -189,69 +188,8 @@ class GameController extends AppController
         $session->write('Question.AnswerID', $claims2[$random]['PrimaryKey']);
         // Set answer-set to session
         $session->write('Question.AnswerSet', $claims2);
-
-        /* Get random medicine data from the DB
-        $substance_id = $claims[$random]['ActiveSubstance'];
-        $substance_results = $connection->execute('SELECT * FROM active_substance WHERE PrimaryKey = :substance',
-            ['substance' => $substance_id])
-            ->fetchAll('assoc');
-        $this->set('substance', $substance_results);
-        //debug($substance_results);
-        */
-	}
-	
-/*
-	Kysystään missä lääkeaineessa active_substance vaikuttaa
-	*/
-	private function question_medicineActiveSubstance() {
-        $connection = ConnectionManager::get('default');
-
-        // Fetch 4 random ID's from medicines
-        $medicines = TableRegistry::get('Medicine');
-        $random = $this->randomNumbers(4, 1, 25);
-        $query = $medicines->find()->where(['PrimaryKey IN' => $random])->all();
-        debug($query);
 		
-		// Save result set to array
-        $claims = array();
-        foreach ($query as $claim) {
-            array_push($claims,$claim);
-        }
-        $this->set('claims', $claims); // Set variable for the view
-
-		// for looppiin pyörähtämään?
-		$claims2 = array();
-		$medicines2 = TableRegistry::get('Brand');
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[0]['Brand']])->all();
-		array_push($claims2,$query2);
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[1]['Brand']])->all();
-		array_push($claims2,$query2);
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[2]['Brand']])->all();
-		array_push($claims2,$query2);
-		$query2 = $medicines2->find()->where(['PrimaryKey IN' => $claims[3]['Brand']])->all();
-		array_push($claims2,$query2);
-		$this->set('claims2', $claims2);
-		debug($claims2);
-		
-        // Lets randomize our question and set variable for the view
-        $random = rand(0,3);
-        $this->set('vastaus', $claims[$random]);
-        // Set correct answer to session
-        $session = $this->request->session();
-        $session->write('Question.AnswerID', $random);
-        //echo $claims[$random]['Indication'];
-       // debug($claims);
-
-        // Get random medicine data from the DB
-        $substance_id = $claims[$random]['ActiveSubstance'];
-        $substance_results = $connection->execute('SELECT * FROM active_substance WHERE PrimaryKey = :substance',
-            ['substance' => $substance_id])
-            ->fetchAll('assoc');
-        $this->set('substance', $substance_results);
-        debug($substance_results);
 	}
-	
-	
 
     /*
     *   Generate n-amount of unique integers ranging between $min and $max
@@ -316,7 +254,6 @@ class GameController extends AppController
 		$seconds = $time % 60;
 		$this->set('seconds', $seconds);
 		$this->set('minutes', $minutes);
-		
-		
+
     }
 }

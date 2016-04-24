@@ -64,8 +64,8 @@ $cakeDescription = 'Iaso - Game';
 			<div class="correct">
 				<?php
 					if($this->request->is('post')) {
-						if($correct) echo "Correct!";
-						else echo "Wrong!";
+						if($correct) echo "<p class=rightAnswer>Previous question was correct!</p>";
+						else echo "<p class=wrong>Previous question was wrong!</p>";
 					}
 				?>
 			</div>

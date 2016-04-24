@@ -102,9 +102,26 @@ body,header{
 	margin:auto;
 	width:100px;
 }
+
+.rightAnswer{
+	font-size:20px;
+	color:green;
+}
+.wrong{
+	font-size:20px;
+	color:red;
+}
 @media screen and (max-width: 500px) {
 	#product{
 		width: 150px;
 		margin-left:15px;
+	}
+	.rightAnswer{
+	font-size:18px;
+	color:green;
+}
+	.wrong{
+	font-size:18px;
+	color:red;
 	}
 }

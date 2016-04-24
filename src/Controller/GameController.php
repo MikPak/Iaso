@@ -25,7 +25,7 @@ class GameController extends AppController
 {
     public function index()
     {
-	$this->question_medicineActiveSubstance();
+//	$this->question_medicineActiveSubstance();
         $session = $this->request->session();
 		
 		if($session->read('Question.Count') == 1){
@@ -261,7 +261,41 @@ class GameController extends AppController
         for($i = 0; $i < $count; $i++) {
             $rand = rand($min,$max);
             if(!in_array($rand, $random)) {
-                    array_push($random,$rand);
+				if($rand == 1){
+					if(!in_array(2, $random)){
+						array_push($random,$rand);
+					}
+					else{
+						$i--;
+					}
+				}
+				else if($rand == 2){
+					if(!in_array(1, $random)){
+						array_push($random,$rand);
+					}
+					else{
+						$i--;
+					}
+				}
+				else if($rand == 3){
+					if(!in_array(4, $random)){
+						array_push($random,$rand);
+					}
+					else{
+						$i--;
+					}
+				}
+				else if($rand == 4){
+					if(!in_array(3, $random)){
+						array_push($random,$rand);
+					}
+					else{
+						$i--;
+					}
+				}
+				else{
+					array_push($random,$rand);
+				}
             } else {
                 $i--;
             }
@@ -282,6 +316,7 @@ class GameController extends AppController
 		$seconds = $time % 60;
 		$this->set('seconds', $seconds);
 		$this->set('minutes', $minutes);
+		
 		
     }
 }

@@ -1,6 +1,6 @@
 ### Iaso wiki-mainpage
 
-![](http://2.bp.blogspot.com/-JbDKXCqTMyY/UbI1nytjupI/AAAAAAAAAS8/kBn9_Lh9lsU/s1600/orpheus5132.jpg)
+![](https://github.com/MikPak/Iaso/blob/dev/doc/iaso_logo.png?raw=true)
 
 | Item | In charge | Other | Notes | 
 |:----:|:----:|:-----:|:-----:|:-----:|

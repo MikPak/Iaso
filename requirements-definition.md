@@ -5,7 +5,7 @@ This document is a "living"-document, which is updates regularly. The structure 
 
 ## Service/software requirement specification
 
-Document version number 1.2
+Document version number 1.3 (Final)
 
 ### Material classification
 
@@ -23,7 +23,7 @@ This document is owned by JAMK University of Applied Sciences.
 
 ### Short product description and customer profile
 
-  * Service: An online quiz game for nurses preparing for an IV-test. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
+  * Service: An online quiz game for nurses of all levels and for nurses preparing for an IV-test. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
   * Client story: Nursing students are required to complete multiple courses which consist of pharmaceutical studies. They face the problem of data overflow when introduced to thousands and thousands remedies and effective drug components. Not all students learn by sitting on classes and reading study notes so we were given the assignment of making studying a game like experience. Remedies are limited to most commonly used effective drug components and grouped based on their use.
 
 ### Client
@@ -48,8 +48,8 @@ This document is owned by JAMK University of Applied Sciences.
 | Demos and collecting feedback, working on the project  | 28.3.2016 | 3.4.2016 | S11 |
 | Fixing, testing, working on the project  | 4.4.2016 | 10.4.2016 | S12 |
 | Fixing, testing, working on the project  | 11.4.2016 | 17.4.2016 | S13 |
-| Finishing the project and presentation of the project  | 18.4.2016 | 28.4.2016 | S14 |
-| The project is over  | 29.4.2016 | 29.4.2016 | S15 |
+| Finishing the project and presentation of the project  | 18.4.2016 | 24.4.2016 | S14 |
+| Project presentation, handing the final reports  | 25.4.2016 | S15 |
 
 For more:
 * [Gannt Chart] (https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
@@ -82,8 +82,6 @@ Client : Niilo Kuokkanen, Niilo.kuokkanen@jamk.fi
 ![](http://student.labranet.jamk.fi/~H9142/projectdisp/Userstory2.png)
 
 ## Service Domain areas
-
-Is there any different product versions to different environments, what?
 
   * Desktop version
   * Mobile version
@@ -136,7 +134,7 @@ As a teacher I want improve students knowledge so more passes tests. | Teacher |
 | RISK06 | Project group can't share work tasks. | The project is delayed significantly | V5 | P2 | R10 | Project manager | 	Try to exploit the best aspects of the group members |
 | RISK07 | Customer don't have time to meet | Problems to understand client | V4 | P2 | R8 | - | Try to get a meeting soon as possible |
 | RISK08 | Customer disappears | The funding ends | V5 | P1 | R5 | Project manager | Actively try to have contact with the customer |
-| RISK09 | Workstation brokes | Can't work | V3 | P3 | R9 | Group Member | All work must have backups |
+| RISK09 | Workstation breaks | Can't work | V3 | P3 | R9 | Group Member | All work must have backups |
 | RISK10 | Labranet is using too low PHP version | Can't test all functions | V3 | P4 | R12 | All | Functions that PHP 5.3 does not support must be coded and tested somewhere else |
 
 

@@ -1,11 +1,11 @@
 # About the document
 
-This document is a "living"-document, which is updates regularly. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly.
+This document is a "living"-document, which is updated regularly. The structure can, and will be edited! The goal is to create a document which merges service design and software design together seamlessly.
 
 
 ## Service/software requirement specification
 
-Document version number 1.3 (Final)
+Document version number 1.3 (Final) 25.4.2016
 
 ### Material classification
 
@@ -18,12 +18,12 @@ This document is owned by JAMK University of Applied Sciences.
 ## Introduction
 
   * This document is for specifying the requirements for this project
-  * This document is for an online quiz game for nurses to prepare for IV-test
+  * This document is for an online quiz game for nursing students and nurses preparing for IV-test
   * This is a student project of second year software engineering students in JAMK University of Applied Sciences
 
 ### Short product description and customer profile
 
-  * Service: An online quiz game for nurses of all levels and for nurses preparing for an IV-test. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
+  * Service: An online quiz game for nursing students of all levels and for nurses preparing for an IV-test. The game improves deduction skills, mathematical skills, and the ability to read pharmaceutical information. 
   * Client story: Nursing students are required to complete multiple courses which consist of pharmaceutical studies. They face the problem of data overflow when introduced to thousands and thousands remedies and effective drug components. Not all students learn by sitting on classes and reading study notes so we were given the assignment of making studying a game like experience. Remedies are limited to most commonly used effective drug components and grouped based on their use.
 
 ### Client
@@ -49,7 +49,7 @@ This document is owned by JAMK University of Applied Sciences.
 | Fixing, testing, working on the project  | 4.4.2016 | 10.4.2016 | S12 |
 | Fixing, testing, working on the project  | 11.4.2016 | 17.4.2016 | S13 |
 | Finishing the project and presentation of the project  | 18.4.2016 | 24.4.2016 | S14 |
-| Project presentation, handing the final reports  | 25.4.2016 | S15 |
+| Project presentation, handing the final reports  | 25.4.2016 | 25.4.2016 | S15 |
 
 For more:
 * [Gannt Chart] (https://drive.google.com/folderview?id=0B2lyrNivVw3rVDR3OWRuTVh1ckU&usp=sharing)
@@ -119,8 +119,8 @@ Database
 User story | Actor | 
 ---|---|---
 A nurse that is preparing for an IV-test.  | Nurse |
-As a nursing student, I want to get exellent test grade so I can ask for stipend. | Student |
-As a teacher I want improve students knowledge so more passes tests. | Teacher |
+As a nursing student, I want to get excellent test grade so I can ask for stipend. | Student |
+As a teacher I want improve my students' knowledge so more students pass my tests. | Teacher |
 
 ## Risks
 
@@ -161,7 +161,7 @@ Risk Factor (R) (V*P = R)
 | R(0-6) | Small or unlikely risks | - | 
 | R(7-12) | Should be taken into consideration | - | 
 | R(13-19) | Has to be monitored, the situation has to be reported to the stakeholders, actions to minimize the risk should be taken | - | 
-| R(20-25) | Actions to dimish the risk should be taken immediately | - | 
+| R(20-25) | Actions to diminish the risk should be taken immediately | - | 
 
 
 | Requirement ID | Description | Type | Division | Responsible | Priority | 
